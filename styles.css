@@ -1,3 +1,11 @@
+@gray-darker:               #444444;
+@gray-dark:                 
+@gray:                      #999999;
+@gray-light:                #cccccc;
+@gray-lighter:              #ececec;
+@gray-lightest:             lighten(@gray-lighter,4%);
+
+
 *,
 *::after,
 *::before{
@@ -221,7 +229,7 @@
     margin: 0;
     font-size: 36px;
     margin-bottom: 15px;
-    color:
+    color:rgb(252, 254, 255)
 }
 
 .hero-wrapper p {
@@ -265,5 +273,98 @@
         background: #000;
         padding: 0 30px;
         transition: all .3s;
+    }
+}
+/*hero section ends here */
+/*spacer and brief about section */
+
+.spacer {
+    background-color: #252023;
+    margin: 50vh;
+
+}
+
+section
+{
+    padding:100px;
+}
+
+.w50{
+    min-width:50%;
+}
+
+.content {
+    display:flex;
+    justify-content: space-between ;    
+}
+.contentBx{
+    padding-right:30px ;
+}
+.contentBx h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+
+
+/*cards section*/
+.about-section{
+    background: url(https://fadzrinmadu.github.io/hosted-assets/responsive-about-us-section-using-html/pic.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
     }
 }
