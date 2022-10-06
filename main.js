@@ -24319,7 +24319,7 @@ Webflow.define('maps', module.exports = function ($, _) {
 
  function addListeners() {
    Webflow.resize.on(resizeMaps);
-   Webflow.redraw.on(resizeMaps);
+   Webflow.redraw.on(resizeMaps); 
  } // Render map onto each element
 
 
