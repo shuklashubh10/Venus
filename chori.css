@@ -1,4 +1,4 @@
-/* Generated on: Sat Oct 08 2022 13:03:38 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Oct 12 2022 09:35:09 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -612,6 +612,7 @@
    }
    
    .section.tint {
+     top: -1px;
      background-color: #f5f5f5;
    }
    
@@ -747,10 +748,14 @@
    }
    
    .section-title {
-     margin-top: 0px;
+     position: relative;
+     left: -39px;
+     width: 564px;
+     margin: 54px;
+     padding: 0px;
      font-size: 46px;
      line-height: 39px;
-     font-weight: 300;
+     font-weight: 600;
    }
    
    .section-title.large {
@@ -774,10 +779,14 @@
    }
    
    .section-description {
+     position: relative;
+     left: -66px;
+     width: 730px;
      margin-top: 30px;
+     box-shadow: 0 1px 5px -3px #0d6efd;
      font-size: 21px;
      line-height: 27px;
-     font-weight: 300;
+     font-weight: 400;
    }
    
    .section-description.faded {
@@ -2320,15 +2329,19 @@
      border: 0px solid transparent;
      border-radius: 100%;
      background-color: #f5f5f5;
-     box-shadow: 0 0 30px 0 transparent;
+     opacity: 1;
      -webkit-transition: box-shadow 200ms ease;
      transition: box-shadow 200ms ease;
-     color: #c7c7c7;
+     color: #fff;
      font-size: 13px;
      font-weight: 700;
      text-align: center;
      letter-spacing: 1px;
      text-transform: uppercase;
+     background-clip: content-box;
+     -webkit-text-fill-color: inherit;
+     -o-object-fit: cover;
+     object-fit: cover;
    }
    
    .process-tab-button:hover {
@@ -2345,8 +2358,12 @@
    }
    
    .process-tab-icon {
-     height: 30px;
+     height: 54px;
      margin-bottom: 6px;
+     border-radius: 20px;
+     cursor: pointer;
+     -o-object-fit: fill;
+     object-fit: fill;
    }
    
    .process-tab-menu {
@@ -4752,6 +4769,43 @@
    .portfolio-lightbox-block {
      display: block;
      text-decoration: none;
+   }
+   
+   .paragraph {
+     position: relative;
+     top: -44px;
+     border-radius: 14px;
+     -webkit-transform: translate(0px, 0px);
+     -ms-transform: translate(0px, 0px);
+     transform: translate(0px, 0px);
+     font-size: 21px;
+     text-align: center;
+   }
+   
+   .heading {
+     position: relative;
+     top: -40px;
+     opacity: 0.86;
+     font-size: 37px;
+     font-weight: 600;
+     text-align: center;
+   }
+   
+   .text-block {
+     width: 100%;
+     margin-top: 55px;
+     margin-bottom: 1px;
+     float: none;
+     border: 1px none #000;
+     border-radius: 20px;
+     box-shadow: 0 3px 3px -3px #0d6efd;
+     outline-color: #333;
+     outline-offset: 0px;
+     outline-style: none;
+     outline-width: 3px;
+     font-size: 21px;
+     font-weight: 400;
+     text-align: center;
    }
    
    html.w-mod-js *[data-ix="hide-block-title"] {
