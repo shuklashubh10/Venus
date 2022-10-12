@@ -5347,6 +5347,7 @@ body[data-route-option=next-section] .c-header-home_buttons {
 }
 
 h1.slideshow__slide-caption-title {
+  margin-top: -130px;
   padding-left: 98px;
   padding-right: 98px;
   color: black;
@@ -5420,6 +5421,7 @@ span.slideshow__slide-caption-subtitle-label {
     z-index: 2;
     width: 100vh;
     height: 5vw;
+    
     transform-origin: top;
     display: flex;
     align-items: center;
@@ -5450,7 +5452,7 @@ span.slideshow__slide-caption-subtitle-label {
     transition: opacity 400ms cubic-bezier(0.8, 0, 0.55, 0.94), border-color 400ms cubic-bezier(0.8, 0, 0.55, 0.94);
   }
   .side-nav .label {
-    font-size: 11px;
+    font-size: 17px;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     opacity: 0.3;
