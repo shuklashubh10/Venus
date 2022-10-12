@@ -24520,6 +24520,7 @@ window.addEventListener('scroll', function () {
   header.classList.toggle('sticky', window.scrollY > 0);
 });
 
+<<<<<<< HEAD
 function toggleMenu() {
   var menuToggle = document.querySelector('.toggle');
   var menu = document.querySelector('.menu');
@@ -24527,3 +24528,6 @@ function toggleMenu() {
   menuToggle.classList.toggle('active');
 }
   
+=======
+   
+>>>>>>> c69282d0beee27ed1ab814f6276a915f1b142054
