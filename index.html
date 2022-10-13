@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Venus Brassotech</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
-</head>
-<body>
-  
-    <nav class="navbar">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1, user-scalable=no"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- <nav class="navbar">
         <div class="navbar-container container1">
           <input type="checkbox" name="" id=""></input>
           <div class="hamburger-lines">
@@ -35,316 +49,705 @@
           </ul>
           <h1 class="logo">Venus Brassotech</h1>
         </div>
-      </nav>
+      </nav> -->
 
-      <div class="hero-wrapper">
-        <div class="overlay">
-          <div class="hero-content">
-            <h1>Learn and teach at the same time</h1>
-          <p>Are you interested in learning Web Design? If that’s the case, you’ve just come across the perfect</p>
-            <div class="btns">
-              <button>Learn more</button>
-            </div>
+    <nav id="navbar" class="">
+      <div class="nav-wrapper">
+        <!-- Navbar Logo -->
+        <div class="logo">
+          <!-- Logo Placeholder for Inlustration -->
+
+          <a href="#home">
+            VENUS BRASSOTECH <i class=""></i
+            ><img class="nav-logo"
+              src="VenusBrassotech_Logo (1).png"
+          /></a>
         </div>
-        </div>
-        
+
+        <!-- Navbar Links -->
+        <ul id="menu">
+          <li><a href="#home">Home</a></li>
+          <!--
+         -->
+          <li><a href="#services">Services</a></li>
+          <!--
+         -->
+          <li><a href="#about">About</a></li>
+          <!--
+         -->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </div>
-      <!--hero section ends here -->
+    </nav>
 
-      <div class="section tint wf-section">
-        <div class="container w-container">
-          <div class="overall-row w-row">
-            <div class="about-us-col-left w-col w-col-6">
-              <h2 class="section-title">OUR MISSION</h2>
-              <div class="section-description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique. Lorem ipsum
-                dolor sit amet.
-              </div>
-              <a href="/contact/contact-3" class="button w-button"
-                >Get in touch with us</a
-              >
-            </div>
-            <div class="video-column-right-2 w-col w-col-6">
-              <a
-                href="#"
-                class="overall-video-lightbox w-inline-block w-lightbox"
-                aria-label="open lightbox"
-                aria-haspopup="dialog"
-                ><div class="video-lightbox-image-block">
-                  <div class="video-lightbox-button">
-                    <img
-                      src="https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca608fb9d17f9_Icon-play-white.png"
-                      alt=""
-                      class="video-lightbox-icon"
-                    />
-                  </div>
-                </div>
-                <script type="application/json" class="w-json">
-                  {
-                    "items": [],
-                    "group": ""
-                  }
-                </script></a
-              >
-            </div>
-          </div>
-          <div class="stats-row w-row">
-            <div class="stats-column w-col w-col-4">
-              <div class="stats-block w-clearfix">
-                <div class="stats-number">95%</div>
-                <div class="stats-title">
-                  Lorem ipsum dolor sit amet, consectetur.
-                </div>
-              </div>
-            </div>
-            <div class="stats-column w-col w-col-4">
-              <div class="stats-block w-clearfix">
-                <div class="stats-number">12%</div>
-                <div class="stats-title">
-                  Varius enim in eros elementum tristique.
-                </div>
-              </div>
-            </div>
-            <div class="stats-column w-col w-col-4">
-              <div class="stats-block w-clearfix">
-                <div class="stats-number">85%</div>
-                <div class="stats-title">
-                  Elementum tristique. Lorem ipsum dolor.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <!-- Menu Icon -->
+    <div class="menuIcon">
+      <span class="icon icon-bars"></span>
+      <span class="icon icon-bars overlay"></span>
+    </div>
 
+    <div class="overlay-menu">
+      <ul id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
 
-
-      <div class="section tint wf-section">
-        <div class="container w-container">
-          <div class="overall-row w-row">
-            <div class="vabout-us-col-right w-col  w-col w-col-6">
-              <a
-                href="#"
-                class="overall-video-lightbox w-inline-block w-lightbox"
-                aria-label="open lightbox"
-                aria-haspopup="dialog"
-                ><div class="video-lightbox-image-block">
-                  <div class="video-lightbox-button">
-                    <img
-                      src="https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca608fb9d17f9_Icon-play-white.png"
-                      alt=""
-                      class="video-lightbox-icon"
-                    />
-                  </div>
-                </div>
-                <script type="application/json" class="w-json">
-                  {
-                    "items": [],
-                    "group": ""
-                  }
-                </script></a
-              >
-            </div>
-            <div class="video-column-left-2  w-col w-col-6">
-              <h2 class="section-title">OUR VISION</h2>
-              <div class="section-description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique. Lorem ipsum
-                dolor sit amet.
-              </div>
-              <a href="/contact/contact-3" class="button w-button"
-                >Get in touch with us</a
-              >
-            </div>
-            
-          </div>
-          <div class="stats-row w-row">
-            <div class="stats-column w-col w-col-4">
-              <div class="stats-block w-clearfix">
-                <div class="stats-number">95%</div>
-                <div class="stats-title">
-                  Lorem ipsum dolor sit amet, consectetur.
-                </div>
-              </div>
-            </div>
-            <div class="stats-column w-col w-col-4">
-              <div class="stats-block w-clearfix">
-                <div class="stats-number">12%</div>
-                <div class="stats-title">
-                  Varius enim in eros elementum tristique.
-                </div>
-              </div>
-            </div>
-            <div class="stats-column w-col w-col-4">
-              <div class="stats-block w-clearfix">
-                <div class="stats-number">85%</div>
-                <div class="stats-title">
-                  Elementum tristique. Lorem ipsum dolor.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-
-
-
-
-      <!--this is just testing-->
-<div class="section wf-section" style="height: 55vh;">
-  <div class="container above-image-section w-container">
-    <div class="feature-info-row w-row">
-      <div class="feature-info-column w-col w-col-4">
-        <div class="feature-info-block w-clearfix">
-          <img
-            src="https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca66cdb9d176e_Icon-megaphone-blue.png"
-            alt=""
-            class="feature-info-icon"
-          />
-          <div class="feature-info-title">Nicely Crafted</div>
-          <p class="feature-info-paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Suspendisse varius enim in eros elementum tristique. Duis
-            cursus, mi quis viverra ornare, eros dolor.
+    <div class="hero-wrapper">
+      <div class="overlay">
+        <div class="hero-content">
+          <h1>Learn and teach at the same time</h1>
+          <p>
+            Are you interested in learning Web Design? If that’s the case,
+            you’ve just come across the perfect
           </p>
-        </div>
-      </div>
-      <div class="feature-info-column w-col w-col-4">
-        <div class="feature-info-block w-clearfix">
-          <img
-            src="https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca6c8a49d17b1_Icon-monitor-blue.png"
-            alt=""
-            class="feature-info-icon"
-          />
-          <div class="feature-info-title">Free updates</div>
-          <p class="feature-info-paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Suspendisse varius enim in eros elementum tristique. Duis
-            cursus, mi quis viverra ornare, eros dolor.
-          </p>
-        </div>
-      </div>
-      <div class="feature-info-column w-col w-col-4">
-        <div class="feature-info-block w-clearfix">
-          <img
-            src="https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca65a179d1782_Icon-pencil-blue.png"
-            alt=""
-            class="feature-info-icon"
-          />
-          <div class="feature-info-title">User Friendly</div>
-          <p class="feature-info-paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Suspendisse varius enim in eros elementum tristique. Duis
-            cursus, mi quis viverra ornare, eros dolor.
-          </p>
+          <div class="btns">
+            <button>Learn more</button>
+          </div>
         </div>
       </div>
     </div>
-    <div class="feature-info-row w-row">
-      <div class="feature-info-column w-col w-col-4">
-        <div class="feature-info-block w-clearfix">
-          <img
-            src="https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca661ad9d177b_Icon-responsive.png"
-            alt=""
-            class="feature-info-icon"
-          />
-          <div class="feature-info-title">Nicely Crafted</div>
-          <p class="feature-info-paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Suspendisse varius enim in eros elementum tristique. Duis
-            cursus, mi quis viverra ornare, eros dolor.
-          </p>
+    <!--hero section ends here -->
+
+    <div class="section tint wf-section">
+      <div class="container w-container">
+        <div class="overall-row w-row">
+          <div class="about-us-col-left w-col w-col-6">
+            <h2 class="section-title">OUR MISSION</h2>
+            <div class="section-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Lorem ipsum
+              dolor sit amet.
+            </div>
+            <a href="/contact/contact-3" class="button w-button"
+              >Get in touch with us</a
+            >
+          </div>
+          <div class="video-column-right-2 w-col w-col-6">
+            <a
+              href="#"
+              class="overall-video-lightbox w-inline-block w-lightbox"
+              aria-label="open lightbox"
+              aria-haspopup="dialog"
+              ><div class="video-lightbox-image-block">
+                <div class="video-lightbox-button">
+                  <img
+                    src="https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca608fb9d17f9_Icon-play-white.png"
+                    alt=""
+                    class="video-lightbox-icon"
+                  />
+                </div>
+              </div>
+              <script type="application/json" class="w-json">
+                {
+                  "items": [],
+                  "group": ""
+                }
+              </script></a
+            >
+          </div>
         </div>
-      </div>
-      <div class="feature-info-column w-col w-col-4">
-        <div class="feature-info-block w-clearfix">
-          <img
-            src="https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca67bc79d17d6_Icon-camera-blue.png"
-            alt=""
-            class="feature-info-icon"
-          />
-          <div class="feature-info-title">Free updates</div>
-          <p class="feature-info-paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Suspendisse varius enim in eros elementum tristique. Duis
-            cursus, mi quis viverra ornare, eros dolor.
-          </p>
-        </div>
-      </div>
-      <div class="feature-info-column w-col w-col-4">
-        <div class="feature-info-block w-clearfix">
-          <img
-            src="https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca6033c9d180b_Icon-plane-blue.png"
-            alt=""
-            class="feature-info-icon"
-          />
-          <div class="feature-info-title">User Friendly</div>
-          <p class="feature-info-paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Suspendisse varius enim in eros elementum tristique. Duis
-            cursus, mi quis viverra ornare, eros dolor.
-          </p>
+        <div class="stats-row w-row">
+          <div class="stats-column w-col w-col-4">
+            <div class="stats-block w-clearfix">
+              <div class="stats-number">95%</div>
+              <div class="stats-title">
+                Lorem ipsum dolor sit amet, consectetur.
+              </div>
+            </div>
+          </div>
+          <div class="stats-column w-col w-col-4">
+            <div class="stats-block w-clearfix">
+              <div class="stats-number">12%</div>
+              <div class="stats-title">
+                Varius enim in eros elementum tristique.
+              </div>
+            </div>
+          </div>
+          <div class="stats-column w-col w-col-4">
+            <div class="stats-block w-clearfix">
+              <div class="stats-number">85%</div>
+              <div class="stats-title">
+                Elementum tristique. Lorem ipsum dolor.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
 
-
-<div class="section tint wf-section"><div class="container w-container"><div class="section-title-wrapper full-centered"><div class="small-section-title">Check out our latest work</div><h2 class="section-title">Recent examples of projects</h2></div><div class="portfolio-list-wrapper w-dyn-list"><div role="list" class="portfolio-list w-clearfix w-dyn-items w-row"><div data-ix="show-block-overlay" role="listitem" class="portfolio-item w-dyn-item w-col w-col-3"><div data-ix="hide-lightbox" class="portfolio-lightbox-overlay" style="opacity: 0; display: none;"><div class="portfolio-image-wrapper"><a href="#" data-ix="close-lightbox" class="close-lightbox-button w-inline-block"><img src="https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca68a149d183e_Icon-close-thin.png" alt="" class="lightbox-close-icon"></a><img src="https://uploads-ssl.webflow.com/62b32fcf235ca676bb9d1726/62b32fcf235ca620b89d1738_Photo-2.jpg" alt="" class="portfolio-image"></div></div><a href="#" data-ix="show-lightbox" style="background-image:url(&quot;https://uploads-ssl.webflow.com/62b32fcf235ca676bb9d1726/62b32fcf235ca620b89d1738_Photo-2.jpg&quot;)" class="portfolio-image-block w-inline-block"><div data-ix="hide-block-overlay" class="portfolio-overlay-block" style="opacity: 0; display: none; transition: opacity 300ms ease 0s;"><div class="portfolio-overlay-content-wrapper"><div data-ix="hide-block-title" class="portfolio-block-title" style="opacity: 0; transform: translateX(0px) translateY(-10px) translateZ(0px); transform-style: preserve-3d; transition: opacity 300ms ease 0s, transform 300ms ease 0s;">Photographer Portfolio</div><div data-ix="hide-block-description" class="portfolio-block-subtitle" style="opacity: 0; transform: translateX(0px) translateY(10px) translateZ(0px); transform-style: preserve-3d; transition: opacity 300ms ease 0s, transform 300ms ease 0s;">Concept, App Development and UI Design.</div><div data-ix="hide-block-button" class="button text-button" style="transition: background-color 0.2s ease 0s, opacity 300ms ease 0s; opacity: 0;">View Item</div></div></div></a></div><div data-ix="show-block-overlay" role="listitem" class="portfolio-item w-dyn-item w-col w-col-3"><div data-ix="hide-lightbox" class="portfolio-lightbox-overlay" style="opacity: 0; display: none;"><div class="portfolio-image-wrapper"><a href="#" data-ix="close-lightbox" class="close-lightbox-button w-inline-block"><img src="https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca68a149d183e_Icon-close-thin.png" alt="" class="lightbox-close-icon"></a><img src="https://uploads-ssl.webflow.com/62b32fcf235ca676bb9d1726/62b32fcf235ca6ed2f9d1740_Webflow-Photo.jpg" alt="" class="portfolio-image"></div></div><a href="#" data-ix="show-lightbox" style="background-image:url(&quot;https://uploads-ssl.webflow.com/62b32fcf235ca676bb9d1726/62b32fcf235ca6ed2f9d1740_Webflow-Photo.jpg&quot;)" class="portfolio-image-block w-inline-block"><div data-ix="hide-block-overlay" class="portfolio-overlay-block" style="opacity: 0; display: none; transition: opacity 300ms ease 0s;"><div class="portfolio-overlay-content-wrapper"><div data-ix="hide-block-title" class="portfolio-block-title" style="opacity: 0; transform: translateX(0px) translateY(-10px) translateZ(0px); transform-style: preserve-3d; transition: opacity 300ms ease 0s, transform 300ms ease 0s;">Webflow Startup Template</div><div data-ix="hide-block-description" class="portfolio-block-subtitle" style="opacity: 0; transform: translateX(0px) translateY(10px) translateZ(0px); transform-style: preserve-3d; transition: opacity 300ms ease 0s, transform 300ms ease 0s;">Concept, App Development and UI Design.</div><div data-ix="hide-block-button" class="button text-button" style="transition: background-color 0.2s ease 0s, opacity 300ms ease 0s; opacity: 0;">View Item</div></div></div></a></div><div data-ix="show-block-overlay" role="listitem" class="portfolio-item w-dyn-item w-col w-col-3"><div data-ix="hide-lightbox" class="portfolio-lightbox-overlay" style="opacity: 0; display: none;"><div class="portfolio-image-wrapper"><a href="#" data-ix="close-lightbox" class="close-lightbox-button w-inline-block"><img src="https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca68a149d183e_Icon-close-thin.png" alt="" class="lightbox-close-icon"></a><img src="https://uploads-ssl.webflow.com/62b32fcf235ca676bb9d1726/62b32fcf235ca63eb59d173f_Photo-7.jpg" alt="" class="portfolio-image"></div></div><a href="#" data-ix="show-lightbox" style="background-image:url(&quot;https://uploads-ssl.webflow.com/62b32fcf235ca676bb9d1726/62b32fcf235ca63eb59d173f_Photo-7.jpg&quot;)" class="portfolio-image-block w-inline-block"><div data-ix="hide-block-overlay" class="portfolio-overlay-block" style="opacity: 0; display: none; transition: opacity 300ms ease 0s;"><div class="portfolio-overlay-content-wrapper"><div data-ix="hide-block-title" class="portfolio-block-title" style="opacity: 0; transform: translateX(0px) translateY(-10px) translateZ(0px); transform-style: preserve-3d; transition: opacity 300ms ease 0s, transform 300ms ease 0s;">Freelancers United</div><div data-ix="hide-block-description" class="portfolio-block-subtitle" style="opacity: 0; transform: translateX(0px) translateY(10px) translateZ(0px); transform-style: preserve-3d; transition: opacity 300ms ease 0s, transform 300ms ease 0s;">Concept, App Development and UI Design.</div><div data-ix="hide-block-button" class="button text-button" style="transition: background-color 0.2s ease 0s, opacity 300ms ease 0s; opacity: 0;">View Item</div></div></div></a></div><div data-ix="show-block-overlay" role="listitem" class="portfolio-item w-dyn-item w-col w-col-3"><div data-ix="hide-lightbox" class="portfolio-lightbox-overlay" style="opacity: 0; display: none;"><div class="portfolio-image-wrapper"><a href="#" data-ix="close-lightbox" class="close-lightbox-button w-inline-block"><img src="https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca68a149d183e_Icon-close-thin.png" alt="" class="lightbox-close-icon"></a><img src="https://uploads-ssl.webflow.com/62b32fcf235ca676bb9d1726/62b32fcf235ca66ab59d173e_Photo-8.jpg" alt="" class="portfolio-image"></div></div><a href="#" data-ix="show-lightbox" style="background-image:url(&quot;https://uploads-ssl.webflow.com/62b32fcf235ca676bb9d1726/62b32fcf235ca66ab59d173e_Photo-8.jpg&quot;)" class="portfolio-image-block w-inline-block"><div data-ix="hide-block-overlay" class="portfolio-overlay-block" style="opacity: 0; display: none; transition: opacity 300ms ease 0s;"><div class="portfolio-overlay-content-wrapper"><div data-ix="hide-block-title" class="portfolio-block-title" style="opacity: 0; transform: translateX(0px) translateY(-10px) translateZ(0px); transform-style: preserve-3d; transition: opacity 300ms ease 0s, transform 300ms ease 0s;">iPad App Store</div><div data-ix="hide-block-description" class="portfolio-block-subtitle" style="opacity: 0; transform: translateX(0px) translateY(10px) translateZ(0px); transform-style: preserve-3d; transition: opacity 300ms ease 0s, transform 300ms ease 0s;">Concept, App Development and UI Design.</div><div data-ix="hide-block-button" class="button text-button" style="transition: background-color 0.2s ease 0s, opacity 300ms ease 0s; opacity: 0;">View Item</div></div></div></a></div></div></div></div></div>
-
-
-
-    
-
-
-
-     
-
-      <!--cards section -->
-
-      <section  class="services" id="skills"  data-aos="fade-up">
-        <div class="services-heading">
-            <h2>OUR PRODUCTS</h2>
-            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p> -->
-        </div>
-        <div class="content" >
-            <div class="skillsBx">
-                <img src="Pics/icon1.png" alt="">
-                <h2>Web Development </h2>
-                <p>HTML,CSS,JAVASCRIPT <br>REACT.JS,NODE</p>
-            </div>
-            <div class="skillsBx">
-                <img src="Pics/icon3.png" alt="">
-                <h2>App Development</h2>
-                <p>FLUTTER <br>REACT NATIVE, DART </p>
-            </div>
-                <div class="skillsBx">
-                    <img src="Pics/icon5.png" alt="">
-                    <h2>Competitive Coding </h2>
-                    <p>C and C++ DSA,<br> JAVA, Pyhton, SQL </p>
+    <div class="section tint wf-section">
+      <div class="container w-container">
+        <div class="overall-row w-row">
+          <div class="vabout-us-col-right w-col w-col w-col-6">
+            <a
+              href="#"
+              class="overall-video-lightbox w-inline-block w-lightbox"
+              aria-label="open lightbox"
+              aria-haspopup="dialog"
+              ><div class="video-lightbox-image-block">
+                <div class="video-lightbox-button">
+                  <img
+                    src="https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca608fb9d17f9_Icon-play-white.png"
+                    alt=""
+                    class="video-lightbox-icon"
+                  />
                 </div>
-            
-            <div class="skillsBx">
-                <img src="Pics/icon2.png" alt="">
-                <h2>Linux</h2>
-                <p> Account Management,<br> Cloud,SecurityMonitoring</p>
+              </div>
+              <script type="application/json" class="w-json">
+                {
+                  "items": [],
+                  "group": ""
+                }
+              </script></a
+            >
+          </div>
+          <div class="video-column-left-2 w-col w-col-6">
+            <h2 class="section-title">OUR VISION</h2>
+            <div class="section-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Lorem ipsum
+              dolor sit amet.
             </div>
-            <div class="skillsBx">
-                <img src="Pics/icon4.png" alt="">
-                <h2>Photography</h2>
-                <p> Photoshop, Figma , AdobeXD</p>
-            </div>
-            <div class="skillsBx">
-                <img src="Pics/icon6.png" alt="">
-                <h2>Videograhpy</h2>
-                <p>AfterEffects, Premiere</p>
-            </div>
+            <a href="/contact/contact-3" class="button w-button"
+              >Get in touch with us</a
+            >
+          </div>
         </div>
+        <div class="stats-row w-row">
+          <div class="stats-column w-col w-col-4">
+            <div class="stats-block w-clearfix">
+              <div class="stats-number">95%</div>
+              <div class="stats-title">
+                Lorem ipsum dolor sit amet, consectetur.
+              </div>
+            </div>
+          </div>
+          <div class="stats-column w-col w-col-4">
+            <div class="stats-block w-clearfix">
+              <div class="stats-number">12%</div>
+              <div class="stats-title">
+                Varius enim in eros elementum tristique.
+              </div>
+            </div>
+          </div>
+          <div class="stats-column w-col w-col-4">
+            <div class="stats-block w-clearfix">
+              <div class="stats-number">85%</div>
+              <div class="stats-title">
+                Elementum tristique. Lorem ipsum dolor.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--this is just testing-->
+    <div class="section wf-section" style="height: 55vh">
+      <div class="container above-image-section w-container">
+        <div class="feature-info-row w-row">
+          <div class="feature-info-column w-col w-col-4">
+            <div class="feature-info-block w-clearfix">
+              <img
+                src="https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca66cdb9d176e_Icon-megaphone-blue.png"
+                alt=""
+                class="feature-info-icon"
+              />
+              <div class="feature-info-title">Nicely Crafted</div>
+              <p class="feature-info-paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. Duis
+                cursus, mi quis viverra ornare, eros dolor.
+              </p>
+            </div>
+          </div>
+          <div class="feature-info-column w-col w-col-4">
+            <div class="feature-info-block w-clearfix">
+              <img
+                src="https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca6c8a49d17b1_Icon-monitor-blue.png"
+                alt=""
+                class="feature-info-icon"
+              />
+              <div class="feature-info-title">Free updates</div>
+              <p class="feature-info-paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. Duis
+                cursus, mi quis viverra ornare, eros dolor.
+              </p>
+            </div>
+          </div>
+          <div class="feature-info-column w-col w-col-4">
+            <div class="feature-info-block w-clearfix">
+              <img
+                src="https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca65a179d1782_Icon-pencil-blue.png"
+                alt=""
+                class="feature-info-icon"
+              />
+              <div class="feature-info-title">User Friendly</div>
+              <p class="feature-info-paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. Duis
+                cursus, mi quis viverra ornare, eros dolor.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="feature-info-row w-row">
+          <div class="feature-info-column w-col w-col-4">
+            <div class="feature-info-block w-clearfix">
+              <img
+                src="https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca661ad9d177b_Icon-responsive.png"
+                alt=""
+                class="feature-info-icon"
+              />
+              <div class="feature-info-title">Nicely Crafted</div>
+              <p class="feature-info-paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. Duis
+                cursus, mi quis viverra ornare, eros dolor.
+              </p>
+            </div>
+          </div>
+          <div class="feature-info-column w-col w-col-4">
+            <div class="feature-info-block w-clearfix">
+              <img
+                src="https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca67bc79d17d6_Icon-camera-blue.png"
+                alt=""
+                class="feature-info-icon"
+              />
+              <div class="feature-info-title">Free updates</div>
+              <p class="feature-info-paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. Duis
+                cursus, mi quis viverra ornare, eros dolor.
+              </p>
+            </div>
+          </div>
+          <div class="feature-info-column w-col w-col-4">
+            <div class="feature-info-block w-clearfix">
+              <img
+                src="https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca6033c9d180b_Icon-plane-blue.png"
+                alt=""
+                class="feature-info-icon"
+              />
+              <div class="feature-info-title">User Friendly</div>
+              <p class="feature-info-paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. Duis
+                cursus, mi quis viverra ornare, eros dolor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section tint wf-section">
+      <div class="container w-container">
+        <div class="section-title-wrapper full-centered">
+          <div class="small-section-title">Check out our latest work</div>
+          <h2 class="section-title">Recent examples of projects</h2>
+        </div>
+        <div class="portfolio-list-wrapper w-dyn-list">
+          <div role="list" class="portfolio-list w-clearfix w-dyn-items w-row">
+            <div
+              data-ix="show-block-overlay"
+              role="listitem"
+              class="portfolio-item w-dyn-item w-col w-col-3"
+            >
+              <div
+                data-ix="hide-lightbox"
+                class="portfolio-lightbox-overlay"
+                style="opacity: 0; display: none"
+              >
+                <div class="portfolio-image-wrapper">
+                  <a
+                    href="#"
+                    data-ix="close-lightbox"
+                    class="close-lightbox-button w-inline-block"
+                    ><img
+                      src="https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca68a149d183e_Icon-close-thin.png"
+                      alt=""
+                      class="lightbox-close-icon" /></a
+                  ><img
+                    src="https://uploads-ssl.webflow.com/62b32fcf235ca676bb9d1726/62b32fcf235ca620b89d1738_Photo-2.jpg"
+                    alt=""
+                    class="portfolio-image"
+                  />
+                </div>
+              </div>
+              <a
+                href="#"
+                data-ix="show-lightbox"
+                style="
+                  background-image: url('https://uploads-ssl.webflow.com/62b32fcf235ca676bb9d1726/62b32fcf235ca620b89d1738_Photo-2.jpg');
+                "
+                class="portfolio-image-block w-inline-block"
+                ><div
+                  data-ix="hide-block-overlay"
+                  class="portfolio-overlay-block"
+                  style="
+                    opacity: 0;
+                    display: none;
+                    transition: opacity 300ms ease 0s;
+                  "
+                >
+                  <div class="portfolio-overlay-content-wrapper">
+                    <div
+                      data-ix="hide-block-title"
+                      class="portfolio-block-title"
+                      style="
+                        opacity: 0;
+                        transform: translateX(0px) translateY(-10px)
+                          translateZ(0px);
+                        transform-style: preserve-3d;
+                        transition: opacity 300ms ease 0s,
+                          transform 300ms ease 0s;
+                      "
+                    >
+                      Photographer Portfolio
+                    </div>
+                    <div
+                      data-ix="hide-block-description"
+                      class="portfolio-block-subtitle"
+                      style="
+                        opacity: 0;
+                        transform: translateX(0px) translateY(10px)
+                          translateZ(0px);
+                        transform-style: preserve-3d;
+                        transition: opacity 300ms ease 0s,
+                          transform 300ms ease 0s;
+                      "
+                    >
+                      Concept, App Development and UI Design.
+                    </div>
+                    <div
+                      data-ix="hide-block-button"
+                      class="button text-button"
+                      style="
+                        transition: background-color 0.2s ease 0s,
+                          opacity 300ms ease 0s;
+                        opacity: 0;
+                      "
+                    >
+                      View Item
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div
+              data-ix="show-block-overlay"
+              role="listitem"
+              class="portfolio-item w-dyn-item w-col w-col-3"
+            >
+              <div
+                data-ix="hide-lightbox"
+                class="portfolio-lightbox-overlay"
+                style="opacity: 0; display: none"
+              >
+                <div class="portfolio-image-wrapper">
+                  <a
+                    href="#"
+                    data-ix="close-lightbox"
+                    class="close-lightbox-button w-inline-block"
+                    ><img
+                      src="https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca68a149d183e_Icon-close-thin.png"
+                      alt=""
+                      class="lightbox-close-icon" /></a
+                  ><img
+                    src="https://uploads-ssl.webflow.com/62b32fcf235ca676bb9d1726/62b32fcf235ca6ed2f9d1740_Webflow-Photo.jpg"
+                    alt=""
+                    class="portfolio-image"
+                  />
+                </div>
+              </div>
+              <a
+                href="#"
+                data-ix="show-lightbox"
+                style="
+                  background-image: url('https://uploads-ssl.webflow.com/62b32fcf235ca676bb9d1726/62b32fcf235ca6ed2f9d1740_Webflow-Photo.jpg');
+                "
+                class="portfolio-image-block w-inline-block"
+                ><div
+                  data-ix="hide-block-overlay"
+                  class="portfolio-overlay-block"
+                  style="
+                    opacity: 0;
+                    display: none;
+                    transition: opacity 300ms ease 0s;
+                  "
+                >
+                  <div class="portfolio-overlay-content-wrapper">
+                    <div
+                      data-ix="hide-block-title"
+                      class="portfolio-block-title"
+                      style="
+                        opacity: 0;
+                        transform: translateX(0px) translateY(-10px)
+                          translateZ(0px);
+                        transform-style: preserve-3d;
+                        transition: opacity 300ms ease 0s,
+                          transform 300ms ease 0s;
+                      "
+                    >
+                      Webflow Startup Template
+                    </div>
+                    <div
+                      data-ix="hide-block-description"
+                      class="portfolio-block-subtitle"
+                      style="
+                        opacity: 0;
+                        transform: translateX(0px) translateY(10px)
+                          translateZ(0px);
+                        transform-style: preserve-3d;
+                        transition: opacity 300ms ease 0s,
+                          transform 300ms ease 0s;
+                      "
+                    >
+                      Concept, App Development and UI Design.
+                    </div>
+                    <div
+                      data-ix="hide-block-button"
+                      class="button text-button"
+                      style="
+                        transition: background-color 0.2s ease 0s,
+                          opacity 300ms ease 0s;
+                        opacity: 0;
+                      "
+                    >
+                      View Item
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div
+              data-ix="show-block-overlay"
+              role="listitem"
+              class="portfolio-item w-dyn-item w-col w-col-3"
+            >
+              <div
+                data-ix="hide-lightbox"
+                class="portfolio-lightbox-overlay"
+                style="opacity: 0; display: none"
+              >
+                <div class="portfolio-image-wrapper">
+                  <a
+                    href="#"
+                    data-ix="close-lightbox"
+                    class="close-lightbox-button w-inline-block"
+                    ><img
+                      src="https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca68a149d183e_Icon-close-thin.png"
+                      alt=""
+                      class="lightbox-close-icon" /></a
+                  ><img
+                    src="https://uploads-ssl.webflow.com/62b32fcf235ca676bb9d1726/62b32fcf235ca63eb59d173f_Photo-7.jpg"
+                    alt=""
+                    class="portfolio-image"
+                  />
+                </div>
+              </div>
+              <a
+                href="#"
+                data-ix="show-lightbox"
+                style="
+                  background-image: url('https://uploads-ssl.webflow.com/62b32fcf235ca676bb9d1726/62b32fcf235ca63eb59d173f_Photo-7.jpg');
+                "
+                class="portfolio-image-block w-inline-block"
+                ><div
+                  data-ix="hide-block-overlay"
+                  class="portfolio-overlay-block"
+                  style="
+                    opacity: 0;
+                    display: none;
+                    transition: opacity 300ms ease 0s;
+                  "
+                >
+                  <div class="portfolio-overlay-content-wrapper">
+                    <div
+                      data-ix="hide-block-title"
+                      class="portfolio-block-title"
+                      style="
+                        opacity: 0;
+                        transform: translateX(0px) translateY(-10px)
+                          translateZ(0px);
+                        transform-style: preserve-3d;
+                        transition: opacity 300ms ease 0s,
+                          transform 300ms ease 0s;
+                      "
+                    >
+                      Freelancers United
+                    </div>
+                    <div
+                      data-ix="hide-block-description"
+                      class="portfolio-block-subtitle"
+                      style="
+                        opacity: 0;
+                        transform: translateX(0px) translateY(10px)
+                          translateZ(0px);
+                        transform-style: preserve-3d;
+                        transition: opacity 300ms ease 0s,
+                          transform 300ms ease 0s;
+                      "
+                    >
+                      Concept, App Development and UI Design.
+                    </div>
+                    <div
+                      data-ix="hide-block-button"
+                      class="button text-button"
+                      style="
+                        transition: background-color 0.2s ease 0s,
+                          opacity 300ms ease 0s;
+                        opacity: 0;
+                      "
+                    >
+                      View Item
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div
+              data-ix="show-block-overlay"
+              role="listitem"
+              class="portfolio-item w-dyn-item w-col w-col-3"
+            >
+              <div
+                data-ix="hide-lightbox"
+                class="portfolio-lightbox-overlay"
+                style="opacity: 0; display: none"
+              >
+                <div class="portfolio-image-wrapper">
+                  <a
+                    href="#"
+                    data-ix="close-lightbox"
+                    class="close-lightbox-button w-inline-block"
+                    ><img
+                      src="https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca68a149d183e_Icon-close-thin.png"
+                      alt=""
+                      class="lightbox-close-icon" /></a
+                  ><img
+                    src="https://uploads-ssl.webflow.com/62b32fcf235ca676bb9d1726/62b32fcf235ca66ab59d173e_Photo-8.jpg"
+                    alt=""
+                    class="portfolio-image"
+                  />
+                </div>
+              </div>
+              <a
+                href="#"
+                data-ix="show-lightbox"
+                style="
+                  background-image: url('https://uploads-ssl.webflow.com/62b32fcf235ca676bb9d1726/62b32fcf235ca66ab59d173e_Photo-8.jpg');
+                "
+                class="portfolio-image-block w-inline-block"
+                ><div
+                  data-ix="hide-block-overlay"
+                  class="portfolio-overlay-block"
+                  style="
+                    opacity: 0;
+                    display: none;
+                    transition: opacity 300ms ease 0s;
+                  "
+                >
+                  <div class="portfolio-overlay-content-wrapper">
+                    <div
+                      data-ix="hide-block-title"
+                      class="portfolio-block-title"
+                      style="
+                        opacity: 0;
+                        transform: translateX(0px) translateY(-10px)
+                          translateZ(0px);
+                        transform-style: preserve-3d;
+                        transition: opacity 300ms ease 0s,
+                          transform 300ms ease 0s;
+                      "
+                    >
+                      iPad App Store
+                    </div>
+                    <div
+                      data-ix="hide-block-description"
+                      class="portfolio-block-subtitle"
+                      style="
+                        opacity: 0;
+                        transform: translateX(0px) translateY(10px)
+                          translateZ(0px);
+                        transform-style: preserve-3d;
+                        transition: opacity 300ms ease 0s,
+                          transform 300ms ease 0s;
+                      "
+                    >
+                      Concept, App Development and UI Design.
+                    </div>
+                    <div
+                      data-ix="hide-block-button"
+                      class="button text-button"
+                      style="
+                        transition: background-color 0.2s ease 0s,
+                          opacity 300ms ease 0s;
+                        opacity: 0;
+                      "
+                    >
+                      View Item
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--cards section -->
+
+    <section class="services" id="skills">
+      <div class="services-heading">
+        <h2>OUR PRODUCTS</h2>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p> -->
+      </div>
+      <div class="content">
+        <div class="skillsBx">
+          <img src="Pics/icon1.png" alt="" />
+          <h2>Web Development</h2>
+          <p>HTML,CSS,JAVASCRIPT <br />REACT.JS,NODE</p>
+        </div>
+        <div class="skillsBx">
+          <img src="Pics/icon3.png" alt="" />
+          <h2>App Development</h2>
+          <p>FLUTTER <br />REACT NATIVE, DART</p>
+        </div>
+        <div class="skillsBx">
+          <img src="Pics/icon5.png" alt="" />
+          <h2>Competitive Coding</h2>
+          <p>
+            C and C++ DSA,<br />
+            JAVA, Pyhton, SQL
+          </p>
+        </div>
+
+        <div class="skillsBx">
+          <img src="Pics/icon2.png" alt="" />
+          <h2>Linux</h2>
+          <p>
+            Account Management,<br />
+            Cloud,SecurityMonitoring
+          </p>
+        </div>
+        <div class="skillsBx">
+          <img src="Pics/icon4.png" alt="" />
+          <h2>Photography</h2>
+          <p>Photoshop, Figma , AdobeXD</p>
+        </div>
+        <div class="skillsBx">
+          <img src="Pics/icon6.png" alt="" />
+          <h2>Videograhpy</h2>
+          <p>AfterEffects, Premiere</p>
+        </div>
+      </div>
     </section>
 
     <!-- <div class="w-slider-mask">
@@ -396,122 +799,147 @@
       </div>
     </div> -->
 
-      <!--footer seciton-->
-      <footer class="footer-section">
+    <!--footer seciton-->
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="cta-text">
+                  <h4>Find us</h4>
+                  <span>Part No. 1, R.S. No. 186, Rajkot Okha Bypass Road, Kansumra, Jamnagar, Gujarat, 361004</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="fas fa-phone"></i>
+                <div class="cta-text">
+                  <h4>Call us</h4>
+                  <span>+91-7878787819</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="far fa-envelope-open"></i>
+                <div class="cta-text">
+                  <h4>Mail us</h4>
+                  <span> venusbrassotech@khattar.co.in </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 mb-50">
+              <div class="footer-widget">
+                <div class="footer-logo">
+                  <a href="index.html"
+                    ><img
+                      src="VenusBrassotech_Logo (1).png"
+                      class="img-fluid"
+                      alt="logo"
+                  /></a>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Useful Links</h3>
+                </div>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="about1.html">about</a></li>
+                  <li><a href="#">services</a></li>
+                  <li><a href="#">Our Services</a></li>
+                  <li><a href="#">Expert Team</a></li>
+                  <li><a href="contactUs.html">Contact us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Contact Us</h3>
+                </div>
+                <div class="footer-text mb-25">
+                  <p>Reach out to us for any kind of query you have</p>
+                </div>
+                <div class="subscribe-form">
+                  <form action="#">
+                    <input type="text" placeholder="Email Address" />
+                    <button><i class="fab fa-telegram-plane"></i></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-area">
         <div class="container">
-            <div class="footer-cta pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-4 col-md-4 mb-30">
-                        <div class="single-cta">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div class="cta-text">
-                                <h4>Find us</h4>
-                                <span>1010 Avenue, sw 54321, chandigarh</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-4 mb-30">
-                        <div class="single-cta">
-                            <i class="fas fa-phone"></i>
-                            <div class="cta-text">
-                                <h4>Call us</h4>
-                                <span>9876543210 0</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-4 mb-30">
-                        <div class="single-cta">
-                            <i class="far fa-envelope-open"></i>
-                            <div class="cta-text">
-                                <h4>Mail us</h4>
-                                <span>mail@info.com</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+              <div class="copyright-text">
+                <p>
+                  Copyright &copy; 2018, All Right Reserved
+                  <a href="">Shubh Shukla</a>
+                </p>
+              </div>
             </div>
-            <div class="footer-content pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4 mb-50">
-                        <div class="footer-widget">
-                            <div class="footer-logo">
-                                <a href="index.html"><img src="VenusBrassotech_Logo (1).png" class="img-fluid" alt="logo"></a>
-                            </div>
-                            <div class="footer-text">
-                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-                                elit,Lorem ipsum dolor sit amet.</p>
-                            </div>
-                            <div class="footer-social-icon">
-                                <span>Follow us</span>
-                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
-                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                        <div class="footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>Useful Links</h3>
-                            </div>
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="about1.html">about</a></li>
-                                <li><a href="#">services</a></li>
-                                <li><a href="#">portfolio</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Our Services</a></li>
-                                <li><a href="#">Expert Team</a></li>
-                                <li><a href="#">Contact us</a></li>
-                                <li><a href="#">Latest News</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
-                        <div class="footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>Subscribe</h3>
-                            </div>
-                            <div class="footer-text mb-25">
-                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
-                            </div>
-                            <div class="subscribe-form">
-                                <form action="#">
-                                    <input type="text" placeholder="Email Address">
-                                    <button><i class="fab fa-telegram-plane"></i></button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+              <div class="footer-menu">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Terms</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Policy</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="copyright-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
-                        <div class="copyright-text">
-                            <p>Copyright &copy; 2018, All Right Reserved <a href="">Shubh Shukla</a></p>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                        <div class="footer-menu">
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Terms</a></li>
-                                <li><a href="#">Privacy</a></li>
-                                <li><a href="#">Policy</a></li>
-                                <li><a href="#">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </footer>
-    
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 
-<script src="main.js"></script>
+  <script src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script type="text/javascript">
+    $(window).on("scroll", function () {
+      if ($(window).scrollTop()) {
+        $("nav").addClass("black");
+      } else {
+        $("nav").removeClass("black");
+      }
+    });
+    /*menu button onclick function*/ $(document).ready(function () {
+      $(".menu h4").click(function () {
+        $("nav ul").toggleClass("active");
+      });
+    });
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </html>

@@ -1,3 +1,6 @@
+AOS.init();
+
+
 /*!
  * Webflow: Front-end site library
  * @license MIT
@@ -24515,19 +24518,33 @@ Webflow.require('ix').init([
 
 
 
-window.addEventListener('scroll', function () {
-  var header = document.querySelector('header');
-  header.classList.toggle('sticky', window.scrollY > 0);
+
+// Sticky navbar
+// =========================
+let menuIcon = document.querySelector('.menuIcon');
+let nav = document.querySelector('.overlay-menu');
+
+menuIcon.addEventListener('click', () => {
+    if (nav.style.transform != 'translateX(0%)') {
+        nav.style.transform = 'translateX(0%)';
+        nav.style.transition = 'transform 0.2s ease-out';
+    } else { 
+        nav.style.transform = 'translateX(-100%)';
+        nav.style.transition = 'transform 0.2s ease-out';
+    }
 });
 
-<<<<<<< HEAD
-function toggleMenu() {
-  var menuToggle = document.querySelector('.toggle');
-  var menu = document.querySelector('.menu');
-  menu.classList.toggle('active')
-  menuToggle.classList.toggle('active');
-}
-  
-=======
-   
->>>>>>> c69282d0beee27ed1ab814f6276a915f1b142054
+
+// Toggle Menu Icon ========================================
+let toggleIcon = document.querySelector('.menuIcon');
+
+toggleIcon.addEventListener('click', () => {
+    if (toggleIcon.className != 'menuIcon toggle') {
+        toggleIcon.className += ' toggle';
+    } else {
+        toggleIcon.className = 'menuIcon';
+    }
+});
+
+
+
