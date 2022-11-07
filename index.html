@@ -51,11 +51,11 @@
         </div>
       </nav> -->
 
-    <nav id="navbar" class="">
+    <!-- <nav id="navbar" class="">
       <div class="nav-wrapper">
-        <!-- Navbar Logo -->
+        Navbar Logo
         <div class="logo">
-          <!-- Logo Placeholder for Inlustration -->
+          Logo Placeholder for Inlustration
 
           <a href="#home">
             VENUS BRASSOTECH <i class=""></i
@@ -64,23 +64,20 @@
           /></a>
         </div>
 
-        <!-- Navbar Links -->
+        Navbar Links
         <ul id="menu">
           <li><a href="#home">Home</a></li>
-          <!--
-         -->
+          
           <li><a href="#services">Services</a></li>
-          <!--
-         -->
+          
           <li><a href="about1.html">About</a></li>
-          <!--
-         -->
+          
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
 
-    <!-- Menu Icon -->
+    Menu Icon
     <div class="menuIcon">
       <span class="icon icon-bars"></span>
       <span class="icon icon-bars overlay"></span>
@@ -93,8 +90,8 @@
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-    </div>
-
+    </div> -->
+<!-- 
     <div class="hero-wrapper">
       <div class="overlay">
         <div class="hero-content">
@@ -108,7 +105,43 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
+
+
+    <header class="navheader">
+      <a href="#" class="logo" id="name">Venus Brassotech </a>
+      <div class="toggle" onclick="toggleMenu();"></div>
+      <ul class="menu">
+          <li><a href="#Home" onclick="toggleMenu();">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu();">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu();">Quality</a></li>
+          <!-- <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li> -->
+          <li><a href="#contact" onclick="toggleMenu();">Products</a></li>
+          <li><a href="#work" onclick="toggleMenu();">Contact Us </a></li>
+      </ul>
+  </header>
+  <section class="banner" id="Home">
+      <div class="textbx">
+          <h2><br><span> Venus Brassotech.</span></h2>
+          <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+          <a href="#about" class="abtn">About me </a>
+          
+      </div>
+      <a href="#" class="arrow-container">
+          <div class="arrow"></div>
+          <div class="arrow"></div>
+          <div class="arrow"></div>  
+        </a>
+  </section>
+
+
+
+
+
+
+
+
+
     <!--hero section ends here -->
 
     <div class="section tint wf-section">
@@ -923,9 +956,25 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script>
+      window.addEventListener('scroll', function () {
+          var header = document.querySelector('header');
+          header.classList.toggle('sticky', window.scrollY > 0);
+      });
+
+      function toggleMenu() {
+          var menuToggle = document.querySelector('.toggle');
+          var menu = document.querySelector('.menu');
+          menu.classList.toggle('active')
+          menuToggle.classList.toggle('active');
+      }
+
+
+  </script>
   </body>
 
   <script src="main.js"></script>
+
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <script type="text/javascript">
     $(window).on("scroll", function () {

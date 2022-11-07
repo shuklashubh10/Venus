@@ -9,41 +9,30 @@
   <script src="chori.js"></script>
 </head>
 <body>
-  <nav id="navbar" class="">
-    <div class="nav-wrapper">
-      <!-- Navbar Logo -->
-      <div class="logo">
-        <!-- Logo Placeholder for Inlustration -->
-       
-        <a href="#home"> VENUS BRASSOTECH <i class=""></i><img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2FC4D0BAQGdIrA-l7aEnQ%2Fcompany-logo_200_200%2F0%3Fe%3D2159024400%26v%3Dbeta%26t%3D6hXsGdT5ztbJ-9Su0Mvxb9yWyHg3D9hKkQusZw10HxA&imgrefurl=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Ftechieventures.in&docid=ye0_UI1lhof8XM&tbnid=wjB_u2HvSqaXwM%3A&vet=10ahUKEwjG4ITVqofnAhXVbX0KHX4BC30QMwhHKAQwBA..i&w=200&h=200&bih=657&biw=1366&q=techieventures&ved=0ahUKEwjG4ITVqofnAhXVbX0KHX4BC30QMwhHKAQwBA&iact=mrc&uact=8"></a>
-      </div>
-  
-      <!-- Navbar Links -->
-      <ul id="menu">
-        <li><a href="#home">Home</a></li><!--
-     --><li><a href="#services">Services</a></li><!--
-     --><li><a href="#about">About</a></li><!--
-     --><li><a href="#contact">Contact</a></li>
-      </ul>
+  <header>
+    <a href="#" class="logo" id="name">Shubh Shukla </a>
+    <div class="toggle" onclick="toggleMenu();"></div>
+    <ul class="menu">
+        <li><a href="#Home" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu();">About</a></li>
+        <li><a href="#skills" onclick="toggleMenu();">Skills</a></li>
+        <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+        <!-- <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li> -->
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+    </ul>
+</header>
+<section class="banner" id="Home">
+    <div class="textbx">
+        <h2>Hi,<br><span> I am Shubh Shukla.</span></h2>
+        <h3>I am a web developer </h3>
+        <a href="#about" class="btn">About me </a>
+        
     </div>
-  </nav>
-  
-  
-  <!-- Menu Icon -->
-  <div class="menuIcon">
-    <span class="icon icon-bars"></span>
-    <span class="icon icon-bars overlay"></span>
-  </div>
-  
-  
-  <div class="overlay-menu">
-    <ul id="menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-  </div>
- 
+    <a href="#" class="arrow-container">
+        <div class="arrow"></div>
+        <div class="arrow"></div>
+        <div class="arrow"></div>  
+      </a>
+</section>
 </body>
 </html>
