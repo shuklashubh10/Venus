@@ -8179,6 +8179,9 @@ html {
       width: 90%;
     }
   }
+  #testId{
+    height: 65vh;
+  }
   
   @media screen and (max-width: 767px) {
     .navbar {
@@ -8186,7 +8189,9 @@ html {
       padding-bottom: 20px;
       padding-left: 10px;
     }
-  
+    #testId{
+      height: 80vh;
+    }
     .navbar.white {
       padding-top: 10px;
       padding-bottom: 10px;
@@ -19813,7 +19818,7 @@ section
     position: relative;
     min-height: 100vh;
     /* background-color: black; */
-    background: url(1.png);
+    background: url(factory.jpg);
     background-size: cover;
     background-position: right;
     display: flex;
