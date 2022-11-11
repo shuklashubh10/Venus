@@ -374,7 +374,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 35px 15px;
+  padding: 14px 120px;
   width: 100%;
 }
 
@@ -497,11 +497,27 @@ html {
   padding: 15px 20px;
   text-transform: uppercase;
 }
-
+.manu{
+  align-items: center;
+  background-color: #F5F5F5;
+}
+#manuf{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.manuh{
+  text-align: center;
+  margin-top:30px;
+  margin-bottom:30px;
+  font-family: 'Cinzel', serif;
+}
 /* h1 {
   text-align: center;
 } */
-
+.khattar{
+  background-color: white !important;
+}
 /* Footer */
 .footer-section {
   background: #151414;
