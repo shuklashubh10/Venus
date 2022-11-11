@@ -13,7 +13,7 @@
   position: relative;
   min-height: 100vh;
   /* background-color: black; */
-  background: url(1.png);
+  background: url(factory.jpg);
   background-size: cover;
   background-position: right;
   display: flex;
@@ -52,7 +52,7 @@
   letter-spacing: 2px;
   font-weight: 500;
 }
-.navheader {
+.navbar {
   position: fixed;
   top: 0;
   left: 0;
@@ -67,7 +67,7 @@
 
 
 
-.navheader .logo{
+.navbar .logo{
   color: #fff;
   font-size: 24px;
   text-transform: uppercase;
@@ -75,35 +75,35 @@
   font-weight: 700;
   letter-spacing: 2px;
 }
-.navheader.sticky.name {
+.navbar.sticky.name {
    color: #111;
 }
 
-.navheader ul{
+.navbar ul{
   position: relative;
   display: flex;
 
 }
 
-.navheader ul li {
+.navbar ul li {
   position: relative;
   list-style: none;
   
 }
 
-.navheader ul li a {
+.navbar ul li a {
   position: relative;
   display: inline-block;
   margin: 0 15px;
   color: #fff;
   text-decoration: none;
 }
-.navheader.sticky {
+.navbar.sticky {
   background: #fff;
   padding: 20px 100px;
   box-shadow: 0 5px 20px rbga(0,0,0,0.1);
 }
-.navheader.sticky ul li a{
+.navbar.sticky ul li a{
   color:#111;
 }
 .half-half-image-text{
@@ -180,15 +180,7 @@ background-color: #F5F5F5;}
   box-shadow: 20px 20px grey;
 }
 
-.navlinks,
-a {
-  color: #ffffff !important;
-}
 
-.navlinks:hover,
-a {
-  color: #0082f3 !important;
-} */
 
 .grid {
   display: flex;
@@ -2361,9 +2353,7 @@ textarea.w-select {
   color: #222222
 }
 
-.w-dropdown-link.w--current {
-  color: #0082f3
-}
+
 
 .w-dropdown-link:focus {
   outline: 0
@@ -2860,9 +2850,7 @@ textarea.w-select {
   margin-right: auto
 }
 
-.w-nav-link.w--current {
-  color: #0082f3
-}
+
 
 .w-nav-menu {
   position: relative;
@@ -3109,16 +3097,7 @@ p {
   margin-bottom: 15px;
 }
 
-.complinks,
-a {
-  color: #000 !important;
-  text-decoration: none !important;
-}
 
-.complinks:hover,
-a {
-  color: #0082f3 !important;
-}
 
 blockquote {
   margin-bottom: 30px;
@@ -5523,3 +5502,120 @@ button .floating-btn:focus {
     max-width: 140rem;
   }
 }
+
+
+/*nav-bar css*/
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins') ;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+section
+{
+    padding:100px;
+}
+.banner {
+    position: relative;
+    min-height: 100vh;
+    /* background-color: black; */
+    background: url(factory.jpg);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner h2{
+    font-size: 3em;
+    color:#fff;
+    font-weight: 500;
+    line-height: 1.5em;
+
+}
+.banner h2 span {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.banner h3 {
+    font-size: 1-5em;
+    color :#fff;
+    font-weight: 500;
+}
+
+.btn{
+    position: relative;
+    background:#2196f3;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+    
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%   ;
+    padding:40px 100px;
+    z-index: 1000;
+    display:flex;
+    justify-content:space-between ;
+    align-items: center ;
+    transition: 0.5s;
+}
+
+
+
+header .logo{
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+ header.sticky.name {
+     color: #111;
+ }
+
+header ul{
+    position: relative;
+    display: flex;
+
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+    
+}
+
+header ul li a {
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+header.sticky {
+    background: #fff;
+    padding: 20px 100px;
+    box-shadow: 0 5px 20px rbga(0,0,0,0.1);
+}
+header.sticky ul li a{
+    color:#111;
+}
+
