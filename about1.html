@@ -536,6 +536,19 @@
     crossorigin="anonymous"></script>
   <script src="https://uploads-ssl.webflow.com/633f2401c8fd3d8d069adcda/js/webflow.5a4e067ca.js"
     type="text/javascript"></script>
+    <script>
+      window.addEventListener('scroll', function () {
+           var header = document.querySelector('header');
+           header.classList.toggle('sticky', window.scrollY > 0);
+       });
+       
+     function toggleMenu() {
+         var menuToggle = document.querySelector('.toggle');
+         var menu = document.querySelector('.menu');
+         menu.classList.toggle('active')
+         menuToggle.classList.toggle('active');
+     }
+     </script>
 </body>
 <div>
   <svg xmlns="http://www.w3.org/2000/svg">
