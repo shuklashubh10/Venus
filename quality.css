@@ -816,7 +816,7 @@
    
    .video-lightbox-block {
      overflow: hidden;
-     height: 400px;
+     height: auto;
      border-radius: 4px;
      background-image: url("https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca68cc89d182a_Photo-8.jpg");
      background-position: 50% 50%;
@@ -828,7 +828,8 @@
    }
    
    .video-lightbox-block.about-us {
-     background-image: url("https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca68cc89d182a_Photo-8.jpg");
+     background-image: url("Draft\ Certificate-Venus\ Brassotech_page-0001.jpg");
+     height: 100%;
    }
    
    .video-lightbox-overlay {
@@ -3774,7 +3775,7 @@
      width: 100%;
      height: 200px;
      border-radius: 4px;
-     background-image: url("https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca66a559d1825_Photo-5.jpg");
+     background-image: url("venus_nsf\ photo.jpeg");
      background-position: 50% 50%;
      background-size: cover;
    }
@@ -3789,7 +3790,7 @@
      width: 100%;
      height: 240px;
      border-radius: 5px;
-     background-image: url("https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca677cb9d183b_Photo-7.jpg");
+     background-image: url(VENUS\ BRASSOTECH_page-0001.jpg);
      background-position: 50% 50%;
      background-size: cover;
    }
@@ -8834,4 +8835,19 @@
    }
    
    
-   
+   .enlarge {
+    width:70% ;
+    height: 50%;
+    float: left;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.enlarge:hover {
+    width: 100%;
+    height: 80%;
+       -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
