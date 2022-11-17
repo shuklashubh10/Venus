@@ -372,6 +372,7 @@ section
   }
   .services {
       background: #111;
+     
   
   }
   
@@ -380,7 +381,8 @@ section
       justify-content :center ;
       flex-wrap :wrap;
       flex-direction: row;
-  
+      margin-left:200px;
+      margin-right: 200px;
   }
   
   .services .content .skillsBx{
@@ -6144,6 +6146,7 @@ html {
   
   .stats-row {
     margin-top: 50px;
+    height: 6vh;
   }
   
   .stats-block {
@@ -7996,6 +7999,7 @@ html {
   
     .stats-title {
       font-size: 11px;
+     
     }
   
     .intro-paragraph {
@@ -14103,8 +14107,8 @@ html {
    .subpage-header.with-contact-info {
      position: relative;
      padding-bottom: 230px;
-     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca655ff9d1806_Photo-5.jpg");
-     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca655ff9d1806_Photo-5.jpg");
+     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("factory.jpg");
+     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("factory.jpg");
      background-position: 0px 0px, 50% 50%;
      background-size: auto, cover;
    }
@@ -18014,6 +18018,7 @@ html {
      .stats-title {
        margin-top: 16px;
        font-size: 13px;
+       color: #1f6fff;
      }
    
      .element-container.navigation {
@@ -20030,3 +20035,23 @@ section
      }
 }
 
+.image-block-description {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 25px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.7)));
+  background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.7));
+  color: #fff;
+  font-size: 12px;
+}
+
+.numerical-value{
+  
+    color:#1f6fff;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 71px;
+
+}
