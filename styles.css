@@ -20055,3 +20055,53 @@ section
     line-height: 71px;
 
 }
+
+
+.profile-grid{
+  width:100%;
+  padding-top:5vh;
+  align-items: center;
+  padding-left: 12vw;
+  overflow-y: hidden;
+}
+
+.profile-block
+{ margin-bottom: 1.2%;
+ 
+  display:block;
+  text-align: center;
+  float:left;
+  margin-right :3vw;
+}
+
+/* .profile-block:hover .circular-img{
+
+} */
+
+a {
+  text-decoration:none;
+  color:#888;
+}
+
+a .click-profile{
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration:none;
+  color:#8e68e8;
+  display:block;
+  opacity:1;
+  transition: opacity 1s;
+}
+
+
+.circular-img{
+  width:75%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  /* background:pink;
+  opacity:0.4; */
+  transition: opacity 1s;
+}
