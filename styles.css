@@ -20080,7 +20080,7 @@ section
 
 a {
   text-decoration:none;
-  color:#888;
+  
 }
 
 a .click-profile{
@@ -20089,7 +20089,7 @@ a .click-profile{
 
 a:hover {
   text-decoration:none;
-  color:#8e68e8;
+  
   display:block;
   opacity:1;
   transition: opacity 1s;
@@ -20097,7 +20097,7 @@ a:hover {
 
 
 .circular-img{
-  width:75%;
+  width:50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
