@@ -104,10 +104,7 @@
 
 }
 
-section
-{
-    padding:100px;
-}
+
 
 .w50{
     min-width:50%;
@@ -372,7 +369,7 @@ section
   }
   .services {
       background: #111;
-     
+     padding-bottom: 50px;
   
   }
   
@@ -408,7 +405,8 @@ section
     justify-content: center;
     flex-direction: column;
     color: #fff;
-    
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .services .content .skillsBx:hover {
       background-color: #2196f3;
@@ -10879,7 +10877,121 @@ html {
       padding-bottom: 20px;
     }
   }
+  /* applicaive sector new */
+  @import url(https://fonts.googleapis.com/css?family=Raleway);
 
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+
+body{
+  background: #f9f9f9;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.appcontainer{
+  padding: 1em 0;
+  float: left;
+  width: 50%;
+}
+@media screen and (max-width: 640px){
+  .appcontainer{
+    display: block;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 900px){
+  .appcontainer{
+    width: 33.33333%;
+  }
+}
+
+.appcontainer .title{
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.appcontent {
+  position: relative;
+  width: 90%;
+  max-width: 300px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.appcontent .appcontent-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  border-radius: 50%;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.appcontent:hover .appcontent-overlay{
+  opacity: 1;
+}
+
+.appcontent-image{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.appcontent-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.appcontent:hover .appcontent-details{
+  top: 50%;
+  left: 50%;
+  
+  opacity: 1;
+}
+
+.appcontent-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.appcontent-details p{
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.fadeIn-right{
+  left: 80%;
+}
 /* Generated on: Wed Jun 22 2022 15:08:02 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
@@ -19815,10 +19927,7 @@ html {
     font-family:'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
-section
-{
-    padding:100px;
-}
+
 .banner {
     position: relative;
     min-height: 100vh;
@@ -20061,7 +20170,7 @@ section
   width:100%;
   padding-top:5vh;
   align-items: center;
-  padding-left: 12vw;
+  /* padding-left: 12vw;s */
   overflow-y: hidden;
 }
 
