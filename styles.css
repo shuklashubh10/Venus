@@ -20170,7 +20170,7 @@ body{
   width:100%;
   padding-top:5vh;
   align-items: center;
-  /* padding-left: 12vw;s */
+  /* padding-left: 12vw; */
   overflow-y: hidden;
 }
 
@@ -20186,7 +20186,9 @@ body{
 /* .profile-block:hover .circular-img{
 
 } */
-
+.section1{
+  padding-left: 100px;
+}
 a {
   text-decoration:none;
   
