@@ -1,6 +1,10 @@
 .half-half-image-text{
     padding: 50px 0px;
   background-color: #F5F5F5;}
+  .half-half-image-text1{
+    padding: 50px 0px;
+  background-color: #008D9D;
+opacity: 75%;}
    
     .content{
       height: 100%;
@@ -92,7 +96,7 @@ body {
   font-weight: 600;
   /* line-height:1em; */
   text-align: center;
-  /* color: #4DC3FA; */
+ 
 }
 /* .tableheadings1 {
   font-size:1.5em; 
@@ -100,7 +104,7 @@ body {
   line-height:1em;
   text-align: center;
   /* color: #4DC3FA; */
-} */
+/* } */
 
 .dropdown-heading {
   font-size:1em; 
@@ -126,12 +130,16 @@ table{
  td {
     border: 1px solid  #0E1119 !important;
     border-collapse: collapse;
+  
   }
 th {
     border: 1px solid  #0E1119 !important ;
     border-collapse: collapse;
+    
   }
-
+.background{
+  background-color: #4DC3FA;
+}
 .blue { color:black; }
 .yellow { color: #FFF842; }
 
