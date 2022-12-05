@@ -10932,7 +10932,7 @@ section {
   position: relative;
   min-height: 100vh;
   /* background-color: black; */
-  background: url(factory.jpg);
+  background: url(Pics/Desktop\ -\ 1.jpg);
   background-size: cover;
   background-position: right;
   display: flex;
@@ -11214,11 +11214,13 @@ background-color: #F5F5F5;}
     }
   .img1{
     margin-top: -50px;;
-    margin-left: 140px;
+    margin-left: 15vw;
     width: 360px;
     min-height: 360px;
     height: 100%;
+    width: 80%;
     border-radius: 10px;
+    
   }
   * {
       font-family: 'Raleway', sans-serif;
@@ -11404,7 +11406,7 @@ section
   position: relative;
   min-height: 100vh;
   /* background-color: black; */
-  background: url(factory.jpg);
+  background: url(Pics/Desktop\ -\ 1.jpg);
   background-size: cover;
   background-position: right;
   display: flex;
@@ -11861,9 +11863,6 @@ width: auto;
 	padding: 1em 1em 0;
 }
 
-
-/* .env-container{
-  align-items: center;
- padding: 10vw;
-} */
-
+.certificate-box{
+  height: 50vh;
+}
