@@ -44,13 +44,22 @@
     <header class="navheader">
         <a href="#" class="logo" id="name">Venus Brassotech </a>
         <div class="toggle" onclick="toggleMenu();"></div>
-        <ul class="menu">
-            <li><a href="index.html" onclick="toggleMenu();">Home</a></li>
-            <li><a href="about1.html" onclick="toggleMenu();">About</a></li>
-            <li><a href="quality.html" onclick="toggleMenu();">Quality</a></li>
+        <ul class="menu navbar-links">
+            <li class="navbar-dropdown"><a href="index.html" onclick="toggleMenu();">Home</a></li>
+            <li class="navbar-dropdown"><a href="about1.html" onclick="toggleMenu();">About</a></li>
+            <li class="navbar-dropdown"><a href="quality.html" onclick="toggleMenu();">Quality</a></li>
             <!-- <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li> -->
-            <li><a href="products.html" onclick="toggleMenu();">Products</a></li>
-            <li><a href="contactUs.html" onclick="toggleMenu();">Contact Us </a></li>
+            <li class="navbar-dropdown"><a href="products.html" onclick="toggleMenu();">Products</a>
+              <div class="dropdown">
+                <a href="products.html#rods&bars">Rods and Brass</a>
+                <a href="#">Tubes</a>
+                <a href="#">Section & Profile</a>
+                <a href="#">Coils</a>
+                <a href="#">Billets & Ingots</a>
+                <a href="#">Hollow</a>
+              </div>
+            </li>
+            <li class="navbar-dropdown"><a href="contactUs.html" onclick="toggleMenu();">Contact Us </a></li>
         </ul>
     </header>
     <section class="banner section1" id="Home">
@@ -85,45 +94,45 @@
             </div>
           
         </div>
-        <div class="textDropdown " data-aos="fade-up">
-          <div class="dropdownSection" onclick="changeStuff6();">
+        <div class="textDropdown ">
+          <div class="dropdownSection" >
             <table class="container1 spacing">
                       
               <tbody>
                   <tr>
-                      <td rowspan="2" class="background"><h2 class="tableheading">ISO Symbols</h2></td>
-                      <td colspan="5" class="background"><h2 class="tableheading">Equivalent Alloy</h2></td>
+                      <td rowspan="2" data-aos="fade-up" data-aos-duration="1500" class="background"><h2 class="tableheading">ISO Symbols</h2></td>
+                      <td colspan="5" data-aos="fade-up" data-aos-duration="1500" class="background"><h2 class="tableheading">Equivalent Alloy</h2></td>
                   </tr>
                   <tr>
-                      <td class="background">UNS</td>
-                      <td class="background">EN</td>
-                      <td class="background">BS</td>
-                      <td class="background">JIS</td>
-                      <td class="background">IS</td>
+                      <td data-aos="fade-up" data-aos-duration="1500" class="background">UNS</td>
+                      <td data-aos="fade-up" data-aos-duration="1500" class="background">EN</td>
+                      <td data-aos="fade-up" data-aos-duration="1500" class="background">BS</td>
+                      <td data-aos="fade-up" data-aos-duration="1500" class="background">JIS</td>
+                      <td data-aos="fade-up" data-aos-duration="1500" class="background">IS</td>
                   </tr>
                   <tr>
-                      <td>CuZn<sub>36</sub>Pb<sub>3</sub></td>
-                      <td>C36000<br>C35600<br>C36010</td>
-                      <td>CW603N</td>
-                      <td>CZ124</td>
-                      <td>C3601<br>C3602</td>
-                      <td>IS 319 Gr ll</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>36</sub>Pb<sub>3</sub></td>
+                      <td data-aos="fade-up" data-aos-duration="1500">C36000<br>C35600<br>C36010</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CW603N</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CZ124</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">C3601<br>C3602</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">IS 319 Gr ll</td>
                   </tr>
                   <tr>
-                      <td>CuZn<sub>39</sub>Pb<sub>3</sub></td>
-                      <td>C38500</td>
-                      <td>CW614N</td>
-                      <td>CZ121PB3</td>
-                      <td>C3603 <br> C3604</td>
-                      <td>IS 319 Gr l</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>39</sub>Pb<sub>3</sub></td>
+                      <td data-aos="fade-up" data-aos-duration="1500">C38500</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CW614N</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CZ121PB3</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">C3603 <br> C3604</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">IS 319 Gr l</td>
                   </tr>
                   <tr>
-                    <td>CuZn<sub>38</sub>Pb<sub>4</sub></td>
-                    <td>-</td>
-                    <td>CW609N</td>
-                    <td>CZ121PB4</td>
-                    <td>-</td>
-                    <td>-</td>
+                    <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>38</sub>Pb<sub>4</sub></td>
+                    <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                    <td data-aos="fade-up" data-aos-duration="1500">CW609N</td>
+                    <td data-aos="fade-up" data-aos-duration="1500">CZ121PB4</td>
+                    <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                    <td data-aos="fade-up" data-aos-duration="1500">-</td>
                   </tr>
               </tbody>
           </table>
@@ -150,85 +159,85 @@
               </div>
             
           </div>
-          <div class="textDropdown" data-aos="zoom-in-up">
-            <div class="dropdownSection" onclick="changeStuff6();">
+          <div class="textDropdown">
+            <div class="dropdownSection" >
               <table class="container1 spacing">
                         
                 <tbody>
                     <tr>
-                        <td rowspan="2"><h2 class="tableheading">ISO Symbols</h2></td>
-                        <td colspan="5"><h2 class="tableheading">Equivalent Alloy</h2></td>
+                        <td data-aos="fade-up" data-aos-duration="1500" class="background" rowspan="2"><h2 class="tableheading">ISO Symbols</h2></td>
+                        <td data-aos="fade-up" data-aos-duration="1500" class="background" colspan="5"><h2 class="tableheading">Equivalent Alloy</h2></td>
                     </tr>
                     <tr>
-                        <td>UNS</td>
-                        <td>EN</td>
-                        <td>BS</td>
-                        <td>JIS</td>
-                        <td>IS</td>
+                        <td data-aos="fade-up" data-aos-duration="1500" class="background">UNS</td>
+                        <td data-aos="fade-up" data-aos-duration="1500" class="background">EN</td>
+                        <td data-aos="fade-up" data-aos-duration="1500" class="background">BS</td>
+                        <td data-aos="fade-up" data-aos-duration="1500" class="background">JIS</td>
+                        <td data-aos="fade-up" data-aos-duration="1500" class="background">IS</td>
                     </tr>
                     <tr>
-                        <td>CuZn<sub>39</sub>Pb<sub>1</sub></td>
-                        <td>C37000<br>C36500</td>
-                        <td>-</td>
-                        <td>CZ129</td>
-                        <td>C3712</td>
-                        <td>-</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>39</sub>Pb<sub>1</sub></td>
+                        <td data-aos="fade-up" data-aos-duration="1500">C37000<br>C36500</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">CZ129</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">C3712</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>39</sub>Pb<sub>2</sub></td>
-                      <td>C37700</td>
-                      <td>CW612N</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>39</sub>Pb<sub>2</sub></td>
+                      <td data-aos="fade-up" data-aos-duration="1500">C37700</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CW612N</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>40</sub>Pb<sub>2</sub></td>
-                      <td>C37710<br>C38000</td>
-                      <td>CW617N</td>
-                      <td>CZ122</td>
-                      <td>C3771</td>
-                      <td>6912 FLB</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>40</sub>Pb<sub>2</sub></td>
+                      <td data-aos="fade-up" data-aos-duration="1500">C37710<br>C38000</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CW617N</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CZ122</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">C3771</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">6912 FLB</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>38</sub>Pb<sub>2</sub></td>
-                      <td>-</td>
-                      <td>CW608N</td>
-                      <td>CZ128</td>
-                      <td>-</td>
-                      <td>-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>38</sub>Pb<sub>2</sub></td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CW608N</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CZ128</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>39</sub>Pb<sub>2</sub>Sn</td>
-                      <td>-</td>
-                      <td>CW613N</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>39</sub>Pb<sub>2</sub>Sn</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CW613N</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>40</sub>Pb<sub>1</sub>Al</td>
-                      <td>-</td>
-                      <td>CW616N</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>40</sub>Pb<sub>1</sub>Al</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CW616N</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>40</sub>Pb<sub>2</sub>Sn</td>
-                      <td>-</td>
-                      <td>CW619N</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>40</sub>Pb<sub>2</sub>Sn</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CW619N</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>39</sub>Pb<sub>2</sub>Mn</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>8737 MOD</td>                      
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>39</sub>Pb<sub>2</sub>Mn</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">8737 MOD</td>                      
                     </tr>
                 </tbody>
             </table>
@@ -254,101 +263,101 @@
               </div>
             
           </div>
-          <div class="textDropdown" data-aos="zoom-in-up">
-            <div class="dropdownSection" onclick="changeStuff6();">
+          <div class="textDropdown">
+            <div class="dropdownSection" >
               <table class="container1 spacing">
                         
                 <tbody>
                     <tr>
-                        <td rowspan="2" class="background"><h2 class="tableheading">ISO Symbols</h2></td>
-                        <td colspan="5" class="background"><h2 class="tableheading">Equivalent Alloy</h2></td>
+                        <td data-aos="fade-up" data-aos-duration="1500" rowspan="2" class="background"><h2 class="tableheading">ISO Symbols</h2></td>
+                        <td data-aos="fade-up" data-aos-duration="1500" colspan="5" class="background"><h2 class="tableheading">Equivalent Alloy</h2></td>
                     </tr>
                     <tr>
-                        <td class="background">UNS</td>
-                        <td class="background">EN</td>
-                        <td class="background">BS</td>
-                        <td class="background">JIS</td>
-                        <td class="background">IS</td>
+                        <td data-aos="fade-up" data-aos-duration="1500" class="background">UNS</td>
+                        <td data-aos="fade-up" data-aos-duration="1500" class="background">EN</td>
+                        <td data-aos="fade-up" data-aos-duration="1500" class="background">BS</td>
+                        <td data-aos="fade-up" data-aos-duration="1500" class="background">JIS</td>
+                        <td data-aos="fade-up" data-aos-duration="1500" class="background">IS</td>
                     </tr>
                     <tr>
-                        <td>CuZn<sub>39</sub>Sn<sub>1</sub></td>
-                        <td>C46400<br>C47000</td>
-                        <td>CW719R</td>
-                        <td>-</td>
-                        <td>C4641</td>
-                        <td>-</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>39</sub>Sn<sub>1</sub></td>
+                        <td data-aos="fade-up" data-aos-duration="1500">C46400<br>C47000</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">CW719R</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">C4641</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>38</sub>Sn<sub>1</sub>As</td>
-                      <td>C46500</td>
-                      <td>CW717R</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>38</sub>Sn<sub>1</sub>As</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">C46500</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CW717R</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>35</sub>NiFe<sub>1</sub>Sn<sub>1</sub>Pb<sub>2</sub></td>
-                      <td>C47940</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>35</sub>NiFe<sub>1</sub>Sn<sub>1</sub>Pb<sub>2</sub></td>
+                      <td data-aos="fade-up" data-aos-duration="1500">C47940</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>38</sub>Sn<sub>1</sub></td>
-                      <td>C48200</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>38</sub>Sn<sub>1</sub></td>
+                      <td data-aos="fade-up" data-aos-duration="1500">C48200</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>37</sub>Sn<sub>1</sub>Pb</td>
-                      <td>C48500 <br> C46200</td>
-                      <td>CW712R<br>CW714R</td>
-                      <td>CZ133</td>
-                      <td>-</td>
-                      <td>291 Gr l</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>37</sub>Sn<sub>1</sub>Pb</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">C48500 <br> C46200</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CW712R<br>CW714R</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CZ133</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">291 Gr l</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>37</sub>Sn<sub>1</sub>Pb<sub>1</sub>As</td>
-                      <td>C48600</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>37</sub>Sn<sub>1</sub>Pb<sub>1</sub>As</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">C48600</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>36</sub>Sn<sub>1</sub>Pb<sub>2</sub></td>
-                      <td>-</td>
-                      <td>CW711R</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>36</sub>Sn<sub>1</sub>Pb<sub>2</sub></td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CW711R</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>38</sub>Sn<sub>1</sub></td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>CZ112</td>
-                      <td>-</td>
-                      <td>-</td>                      
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>38</sub>Sn<sub>1</sub></td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CZ112</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>                      
                     </tr>
                     <tr>
-                      <td>CuZn<sub>37</sub>Sn<sub>1</sub>Pb<sub>2</sub></td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>CZ134</td>
-                      <td>C4622</td>
-                      <td>291 Gr ll</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>37</sub>Sn<sub>1</sub>Pb<sub>2</sub></td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CZ134</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">C4622</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">291 Gr ll</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>37</sub>Sn<sub>1</sub></td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>IS6912 FNB</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>37</sub>Sn<sub>1</sub></td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">IS6912 FNB</td>
                     </tr>
                 </tbody>
             </table>
@@ -374,7 +383,7 @@
             
           </div>
           <div class="textDropdown">
-            <div class="dropdownSection" onclick="changeStuff6();">
+            <div class="dropdownSection" >
               <table class="container1 spacing">
                         
                 <tbody>
@@ -525,124 +534,124 @@
             
           </div>
           <div class="textDropdown">
-            <div class="dropdownSection" onclick="changeStuff6();">
+            <div class="dropdownSection" >
               <table class="container1 spacing">
                         
                 <tbody>
                     <tr>
-                        <td rowspan="2"><h2 class="tableheading">ISO Symbols</h2></td>
-                        <td colspan="5"><h2 class="tableheading">Equivalent Alloy</h2></td>
+                        <td  data-aos="fade-up" data-aos-duration="1500" class="background" rowspan="2"><h2 class="tableheading">ISO Symbols</h2></td>
+                        <td  data-aos="fade-up" data-aos-duration="1500" class="background" colspan="5"><h2 class="tableheading">Equivalent Alloy</h2></td>
                     </tr>
                     <tr>
-                        <td>UNS</td>
-                        <td>EN</td>
-                        <td>BS</td>
-                        <td>JIS</td>
-                        <td>IS</td>
+                        <td  data-aos="fade-up" data-aos-duration="1500" class="background">UNS</td>
+                        <td  data-aos="fade-up" data-aos-duration="1500" class="background">EN</td>
+                        <td  data-aos="fade-up" data-aos-duration="1500" class="background">BS</td>
+                        <td  data-aos="fade-up" data-aos-duration="1500" class="background">JIS</td>
+                        <td  data-aos="fade-up" data-aos-duration="1500" class="background">IS</td>
                     </tr>
                     <tr>
-                        <td>CuZn<sub>35</sub></td>
-                        <td>C27000</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>35</sub></td>
+                        <td data-aos="fade-up" data-aos-duration="1500">C27000</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>36</sub></td>
-                      <td>-</td>
-                      <td>CW507L</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>36</sub></td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CW507L</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>37</sub></td>
-                      <td>C27200<br>C27400<br>C27450</td>
-                      <td>CW508L</td>
-                      <td>CZ108</td>
-                      <td>-</td>
-                      <td>4413</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>37</sub></td>
+                      <td data-aos="fade-up" data-aos-duration="1500">C27200<br>C27400<br>C27450</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CW508L</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CZ108</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">4413</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>37</sub>p</td>
-                      <td>C27451</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>37</sub>p</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">C27451</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>38</sub>As</td>
-                      <td>-</td>
-                      <td>CW511L</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>38</sub>As</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CW511L</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>40</sub></td>
-                      <td>C2800</td>
-                      <td>CW509L</td>
-                      <td>CZ109</td>
-                      <td>C2800</td>
-                      <td>4170</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>40</sub></td>
+                      <td data-aos="fade-up" data-aos-duration="1500">C2800</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CW509L</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CZ109</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">C2800</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">4170</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>42</sub></td>
-                      <td>C28500</td>
-                      <td>CW510L</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>42</sub></td>
+                      <td data-aos="fade-up" data-aos-duration="1500">C28500</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CW510L</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>30</sub></td>
-                      <td>C26000</td>
-                      <td>CW505L</td>
-                      <td>CZ106</td>
-                      <td>-</td>
-                      <td>-</td>                      
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>30</sub></td>
+                      <td data-aos="fade-up" data-aos-duration="1500">C26000</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CW505L</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CZ106</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>                      
                     </tr>
                     <tr>
-                      <td>CuZn<sub>33</sub></td>
-                      <td>C26800<br>C26200</td>
-                      <td>CW506L</td>
-                      <td>CZ107</td>
-                      <td>-</td>
-                      <td>-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>33</sub></td>
+                      <td data-aos="fade-up" data-aos-duration="1500">C26800<br>C26200</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CW506L</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CZ107</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>30</sub>As</td>
-                      <td>-</td>
-                      <td>CW707R</td>
-                      <td>CZ126</td>
-                      <td>-</td>
-                      <td>-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>30</sub>As</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CW707R</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CZ126</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>28</sub>Sn<sub>1</sub>As</td>
-                      <td>_</td>
-                      <td>CW706R</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>28</sub>Sn<sub>1</sub>As</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">_</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CW706R</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>15</sub></td>
-                      <td>C23000</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>15</sub></td>
+                      <td data-aos="fade-up" data-aos-duration="1500">C23000</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>18</sub></td>
-                      <td>C23400</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>18</sub></td>
+                      <td data-aos="fade-up" data-aos-duration="1500">C23400</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                 </tbody>
             </table>
@@ -668,60 +677,60 @@
             
           </div>
           <div class="textDropdown">
-            <div class="dropdownSection" onclick="changeStuff6();">
+            <div class="dropdownSection" >
               <table class="container1 spacing">
                         
                 <tbody>
                     <tr>
-                        <td rowspan="2"><h2 class="tableheading"><b>ISO Symbols</b></h2></td>
-                        <td colspan="5"><h2 class="tableheading">Equivalent Alloy</h2></td>
+                        <td data-aos="fade-up" data-aos-duration="1500" class="background" rowspan="2"><h2 class="tableheading"><b>ISO Symbols</b></h2></td>
+                        <td data-aos="fade-up" data-aos-duration="1500" class="background" colspan="5"><h2 class="tableheading">Equivalent Alloy</h2></td>
                     </tr>
                     <tr >
-                        <td >UNS</td>
-                        <td>EN</td>
-                        <td>BS</td>
-                        <td>JIS</td>
-                        <td>IS</td>
+                        <td data-aos="fade-up" data-aos-duration="1500" class="background" >UNS</td>
+                        <td data-aos="fade-up" data-aos-duration="1500" class="background">EN</td>
+                        <td data-aos="fade-up" data-aos-duration="1500" class="background">BS</td>
+                        <td data-aos="fade-up" data-aos-duration="1500" class="background">JIS</td>
+                        <td data-aos="fade-up" data-aos-duration="1500" class="background">IS</td>
                     </tr>
                     <tr>
-                        <td>CuZn<sub>14</sub>Si<sub>4</sub></td>
-                        <td>C369430</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>14</sub>Si<sub>4</sub></td>
+                        <td data-aos="fade-up" data-aos-duration="1500">C369430</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                     <tr>
-                        <td>CuZn<sub>18</sub>Si<sub>3</sub>Pb<sub>1</sub></td>
-                        <td>C69700</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>18</sub>Si<sub>3</sub>Pb<sub>1</sub></td>
+                        <td data-aos="fade-up" data-aos-duration="1500">C69700</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                     <tr>
-                        <td>CuZn<sub>19</sub>Si<sub>3</sub></td>
-                        <td>C69710</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>19</sub>Si<sub>3</sub></td>
+                        <td data-aos="fade-up" data-aos-duration="1500">C69710</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                        <td data-aos="fade-up" data-aos-duration="1500">-</td>
                     </tr>
                     <tr>
-                      <td>CuZn<sub>20</sub>Si<sub>3</sub>P</td>
-                      <td>C69300</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td>-</td>                     
+                      <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>20</sub>Si<sub>3</sub>P</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">C69300</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                      <td data-aos="fade-up" data-aos-duration="1500">-</td>                     
                   </tr>
                   <tr>
-                    <td>CuZn<sub>21</sub>Si<sub>3</sub>P</td>
-                    <td>-</td>
-                    <td>CW724R</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
+                    <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>21</sub>Si<sub>3</sub>P</td>
+                    <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                    <td data-aos="fade-up" data-aos-duration="1500">CW724R</td>
+                    <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                    <td data-aos="fade-up" data-aos-duration="1500">-</td>
+                    <td data-aos="fade-up" data-aos-duration="1500">-</td>
                 </tr>
                 </tbody>
             </table>
