@@ -671,3 +671,24 @@ font-size: 12px;
   font-size: 50px;
   font-family: 'Cinzel', serif;
 }
+
+
+
+.disp{
+  display: none;
+}
+
+.footer-widget{
+  display: flex;
+}
+
+.footer-widget > ul{
+  flex: 1;
+ 
+
+}
+
+.text-white{
+  font-size: medium;
+}
+
