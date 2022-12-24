@@ -35,21 +35,30 @@ background-color: #F5F5F5;}
   * {
       font-family: 'Raleway', sans-serif;
   }
- .textdrop{
-  margin-bottom: 50px;
- }
   .textDropdown {
       width: 100%;
       border-color: lightblue;
-      margin-top: 35px;
+      margin-top: 35px !important;
       border-style: solid;
       border-width: 10px;
       border-top-width: 1px;
       border-bottom-width: 1px;
       border-radius: 10px;
       background-color: lightblue;
-      margin-top: 100px;
+      /* margin-top: 100px; */
   }
+  .textDropdown1 {
+    width: 100%;
+    border-color: lightblue;
+    margin-top: 20px !important;
+    border-style: solid;
+    border-width: 10px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-radius: 10px;
+    background-color: lightblue;
+    /* margin-top: 100px; */
+}
   
   .dropdownSection {
       width: auto;
@@ -90,19 +99,19 @@ background-color:#1F2739;
 }
 
 .tableheading {
-font-size:1.5em; 
+font-size:17px; 
 font-weight: 300;
-line-height:1em;
+/* line-height:1em; */
 text-align: center;
 color: #4DC3FA;
 }
 
 .dropdown-heading {
-font-size:1em; 
+font-size:25px; 
 font-weight: 300;
 text-align: center;
 display: block;
-line-height:1em;
+/* line-height:1em; */
 padding-bottom: 2em;
 /* color: #FB667A; */
 }
@@ -121,6 +130,7 @@ table{
 td {
   border: 1px solid  #0E1119 !important;
   border-collapse: collapse;
+  font-size: 17px;
 }
 th {
   border: 1px solid  #0E1119 !important ;
@@ -132,7 +142,7 @@ th {
 
 .container1 th h1 {
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1em;
 color: #185875;
 border-radius:5px;
 }
