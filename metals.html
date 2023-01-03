@@ -112,7 +112,7 @@
                   </tr>
                   <tr>
                       <td data-aos="fade-up" data-aos-duration="1500">CuZn<sub>36</sub>Pb<sub>3</sub></td>
-                      <td data-aos="fade-up" data-aos-duration="1500">C36000<br>C35600<br>C36010</td>
+                      <td data-aos="fade-up" data-aos-duration="1500"><a class="load-image" href="pics/alloy/Free machining brass/Free machining brass/C36000.png">C36000</a><br>C35600<br>C36010</td>
                       <td data-aos="fade-up" data-aos-duration="1500">CW603N</td>
                       <td data-aos="fade-up" data-aos-duration="1500">CZ124</td>
                       <td data-aos="fade-up" data-aos-duration="1500">C3601<br>C3602</td>
@@ -913,6 +913,19 @@
           $("nav ul").toggleClass("active");
         });
       });
+    </script>
+    <script>
+      document.querySelectorAll(".load-image").forEach((item) => {
+        item.addEventListener("click", (event) => {
+          const href = event.target.getAttribute("href");
+          event.preventDefault();
+          const newImage = document.createElement("img");
+          newImage.setAttribute("src", href);
+          document.body.insertBefore(newImage, event.target);
+          event.target.remove();
+        });
+      });
+      
     </script>
     <script>
       AOS.init();
