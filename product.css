@@ -322,22 +322,22 @@ section
 .navbar-links li a:hover {
   color: #ff3f34;
 }
-.navheader {
+header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%   ;
   padding:40px 100px;
   z-index: 1000;
-  display:flex;
-  justify-content:space-between ;
-  align-items: center ;
+  display:flex !important;
+  justify-content:space-between !important;
+  align-items: center !important;
   transition: 0.5s;
 }
 
 
 
-.navheader .logo{
+header .logo{
   color: #fff;
   font-size: 24px;
   text-transform: uppercase;
@@ -345,30 +345,30 @@ section
   font-weight: 700;
   letter-spacing: 2px;
 }
-.navheader.sticky.name {
+header.sticky.name {
    color: #111;
 }
 
-.navheader ul{
+header ul{
   position: relative;
   display: flex;
 
 }
 
-.navheader ul li {
+header ul li {
   position: relative;
   list-style: none;
   
 }
 
-.navheader ul li a {
+header ul li a {
   position: relative;
   display: inline-block;
   margin: 0 15px;
   color: #fff;
   text-decoration: none;
 }
-.navheader.sticky {
+header.sticky {
   background: #fff;
   padding: 20px 100px;
   box-shadow: 0 5px 20px rbga(0,0,0,0.1);

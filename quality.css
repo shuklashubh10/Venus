@@ -11446,7 +11446,7 @@ section
   font-weight: 500;
   
 }
-.navheader {
+header {
   position: fixed;
   top: 0;
   left: 0;
@@ -11461,7 +11461,7 @@ section
 
 
 
-.navheader .logo{
+header .logo{
   color: #fff;
   font-size: 24px;
   text-transform: uppercase;
@@ -11469,35 +11469,35 @@ section
   font-weight: 700;
   letter-spacing: 2px;
 }
-.navheader.sticky.name {
+header.sticky.name {
    color: #111;
 }
 
-.navheader ul{
+header ul{
   position: relative;
   display: flex;
 
 }
 
-.navheader ul li {
+header ul li {
   position: relative;
   list-style: none;
   
 }
 
-.navheader ul li a {
+header ul li a {
   position: relative;
   display: inline-block;
   margin: 0 15px;
   color: #fff;
   text-decoration: none;
 }
-.navheader.sticky {
+header.sticky {
   background: #fff;
   padding: 20px 100px;
   box-shadow: 0 5px 20px rbga(0,0,0,0.1);
 }
-.navheader.sticky ul li a{
+header.sticky ul li a{
   color:#111;
 }
 
