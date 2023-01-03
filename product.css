@@ -413,7 +413,7 @@ header.sticky {
   box-shadow: 0 5px 20px rbga(0, 0, 0, 0.1);
 }
 
-.navheader.sticky ul li a {
+header.sticky ul li a {
   color: #111;
 }
 
