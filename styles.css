@@ -413,8 +413,8 @@
       background-color: #2196f3;
   }
   .services .content .skillsBx img {
-      max-width:80px;
-      filter :invert(1);
+      max-width:100px;
+      
   }
   .services .content .skillsbx h2 {
       font-size:20px;
