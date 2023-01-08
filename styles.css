@@ -385,7 +385,7 @@
   
   .services .content .skillsBx{
       padding:40px 20px;
-      background:#222;
+      /* background:#222; */
       color:#fff;
       height: 262.31px;
       width: 300.2px;
@@ -393,6 +393,10 @@
       text-align :center ;
       transition :0.5s;
   
+  }
+  .skillsBx img {
+    border-radius: 2em;
+    padding-bottom: 1vh;
   }
   
   .heading.white {
