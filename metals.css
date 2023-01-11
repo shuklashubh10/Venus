@@ -294,7 +294,7 @@ section
     position: relative;
     min-height: 100vh;
     /* background-color: black; */
-    background: url(factory.jpg);
+    background: url(pics/alloy/Metal\ landing\ .png);
     background-size: cover;
     background-position: right;
     display: flex;
@@ -315,7 +315,7 @@ section
 }
 
 .banner h3 {
-    font-size: 1-5em;
+    font-size: 22px;
     color :#fff;
     font-weight: 500;
 }
