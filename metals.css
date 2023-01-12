@@ -5,11 +5,18 @@ code {
   margin-bottom: 15px;
   display: block;
 }
+a{
+  color: white !important;
+  text-decoration: none;
+}
 .size{
   height: 70%  !important;
 }
 button{
   color: black !important;
+}
+table, th, td {
+  border: 10px solid black !important;
 }
 img {
   cursor: pointer;

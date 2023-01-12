@@ -95,7 +95,7 @@ p {
 }
 
 .dropdownSection .textSection {
-  background-color: white;
+  /* background-color: white; */
   padding: 20px;
   margin-bottom: 10px;
   display: none;
@@ -182,7 +182,7 @@ th {
 .container1 {
   text-align: center;
   overflow: hidden;
-  width: 85%;
+  width: 100%;
   margin: 0 auto;
   display: table;
   padding: 0 0 6em 0;
