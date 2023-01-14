@@ -417,7 +417,7 @@ header .logo{
     letter-spacing: 2px;
 }
 header.sticky.name {
-     color: #111;
+     color: #111 !important;
  }
 
 header ul{
