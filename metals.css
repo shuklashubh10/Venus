@@ -416,7 +416,7 @@ header .logo{
     font-weight: 700;
     letter-spacing: 2px;
 }
-header.sticky.name {
+header.sticky .name {
      color: #111 !important;
  }
 
@@ -445,7 +445,7 @@ header.sticky {
     box-shadow: 0 5px 20px rbga(0,0,0,0.1);
 }
 header.sticky ul li a{
-    color:#111;
+    color:#111 !important;
 }
 
 

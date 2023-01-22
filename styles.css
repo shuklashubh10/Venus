@@ -19780,7 +19780,7 @@ body{
     position: relative;
     min-height: 100vh;
     /* background-color: black; */
-    background: url(factory.jpg);
+    background: url(./pics/Home\ &\ contact\ landing.jpg);
     background-size: cover;
     background-position: right;
     display: flex;
@@ -19832,11 +19832,22 @@ header {
   align-items: center  !important;
   transition: 0.5s;
 }
+/* #name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
 
+#name img{
+  height: 4%;
+  width: 4%;
+  padding-left:20px;
+}
 
 
 header .logo{
-    color: #fff;
+    /* color: #fff; */
+    color: #007fff;
     font-size: 24px;
     text-transform: uppercase;
     text-decoration: none;
@@ -19863,8 +19874,12 @@ header ul li a {
     position: relative;
     display: inline-block;
     margin: 0 15px;
-    color: #fff;
+    /* color: #fff; */
+
+    color: #007fff;
     text-decoration: none;
+    /* font-size: 20px; */
+    /* font-weight:900; */
 }
 header.sticky {
     background: #fff;
@@ -19874,7 +19889,12 @@ header.sticky {
  header.sticky ul li a{
     color:#111;
 }
-
+header.sticky .logo{
+  color:#111;
+}
+.dropdown a{
+  color: #111;
+}
 
 @media(max-width:991px)
 {
