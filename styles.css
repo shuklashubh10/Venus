@@ -19820,6 +19820,19 @@ body{
     font-weight: 500;
     
 }
+.abtn :hover{
+  position: relative;
+  background:#2196f3;
+  display: inline-block;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
 header {
   position: fixed;
   top: 0;
@@ -19832,11 +19845,11 @@ header {
   align-items: center  !important;
   transition: 0.5s;
 }
-/* #name{
+#name{
   display: flex;
   align-items: center;
-  justify-content: center;
-} */
+  
+}
 
 #name img{
   height: 4%;
@@ -19846,8 +19859,8 @@ header {
 
 
 header .logo{
-    /* color: #fff; */
-    color: #007fff;
+    color: #fff;
+    /* color: #007fff; */
     font-size: 24px;
     text-transform: uppercase;
     text-decoration: none;
@@ -19874,12 +19887,12 @@ header ul li a {
     position: relative;
     display: inline-block;
     margin: 0 15px;
-    /* color: #fff; */
+    /* color: #fdfdfd; */
 
     color: #007fff;
     text-decoration: none;
-    /* font-size: 20px; */
-    /* font-weight:900; */
+    font-size: 20px;
+    font-weight:50;
 }
 header.sticky {
     background: #fff;
@@ -19906,6 +19919,9 @@ header.sticky .logo{
     header.sticky .logo{
         color: #111;
     }
+    #name img{
+     display: none; 
+        }
     .menu{
       position: fixed;  
       top: 75px;
@@ -20067,11 +20083,11 @@ a .click-profile{
 }
 
 a:hover {
-  text-decoration:none;
+  text-decoration:none !important;
   
-  display:block;
-  opacity:1;
-  transition: opacity 1s;
+  display:block !important;;
+  opacity:1 !important;;
+  transition: opacity 1s !important;;
 }
 
 

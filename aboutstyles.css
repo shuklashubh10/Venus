@@ -75,7 +75,16 @@ header {
   transition: 0.5s;
 }
 
-
+#name{
+  display: flex;
+  align-items: center;
+  
+} 
+#name img{
+  height: 4%;
+  width: 4%;
+  padding-left:20px;
+}
 
 header .logo{
     color: #fff;
