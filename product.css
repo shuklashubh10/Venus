@@ -9,7 +9,10 @@
   align-items: center;
   margin-top: 10px;
 }
-
+a{
+  color: white !important;
+  text-decoration: none !important;
+}
 p {
   font-size: 20px;
 }
@@ -264,7 +267,7 @@ section {
   position: relative;
   min-height: 100vh;
   /* background-color: black; */
-  background: url(factory.jpg);
+  background: url(pics/product/Product\ landing\ .png);
   background-size: cover;
   background-position: right;
   display: flex;
