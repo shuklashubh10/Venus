@@ -62,6 +62,7 @@
     font-weight: 500;
     
 }
+
 header {
   position: fixed;
   top: 0;
@@ -74,43 +75,34 @@ header {
   align-items: center  !important;
   transition: 0.5s;
 }
-
 #name{
   display: flex;
   align-items: center;
   
-} 
+}
+
 #name img{
   height: 4%;
   width: 4%;
+  margin-right: -20px;
+  margin-top: -10px;
   /* padding-left:20px; */
 }
 
-.menu{
-  
-  margin-left: -2000px;
 
-}
-.TC{
-  padding-right: 80px;
-}
-.CO{
-  margin-left:200px ;
-}
 header .logo{
     color: #fff;
+    /* color: #007fff; */
     font-size: 24px;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 700;
     letter-spacing: 2px;
+    margin-left: 1vw;
 }
 header.sticky.name {
      color: #111;
  }
- header.sticky.logo {
-  color: #111 !important;
-}
 
 header ul{
     position: relative;
@@ -128,8 +120,12 @@ header ul li a {
     position: relative;
     display: inline-block;
     margin: 0 15px;
-    color: #fff;
+    /* color: #fdfdfd; */
+
+    color: #ADD8E6;
     text-decoration: none;
+    font-size: 20px;
+    font-weight :50;
 }
 header.sticky {
     background: #fff;
@@ -139,7 +135,18 @@ header.sticky {
  header.sticky ul li a{
     color:#111;
 }
+header.sticky .logo{
+  color:#111;
+}
+.dropdown a{
+  color: #111;
+}
 
+.menu{
+  
+  margin-left: -2000px;
+
+}
 
 @media(max-width:991px)
 {
@@ -151,6 +158,9 @@ header.sticky {
     header.sticky .logo{
         color: #111;
     }
+    #name img{
+     display: none; 
+        }
     .menu{
       position: fixed;  
       top: 75px;
@@ -5701,7 +5711,7 @@ section
     position: relative;
     min-height: 100vh;
     /* background-color: black; */
-    background: url(factory.jpg);
+    background: url(pics/about/landing.jpg);
     background-size: cover;
     background-position: right;
     display: flex;
@@ -5741,58 +5751,10 @@ section
     font-weight: 500;
     
 }
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%   ;
-    padding:40px 100px;
-    z-index: 1000;
-    display:flex;
-    justify-content:space-between ;
-    align-items: center ;
-    transition: 0.5s;
+
+.TC{
+  padding-right: 80px;
 }
-
-
-
-header .logo{
-    color: #fff;
-    font-size: 24px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 700;
-    letter-spacing: 2px;
+.CO{
+  margin-left:200px ;
 }
- header.sticky.name {
-     color: #111;
- }
-
-header ul{
-    position: relative;
-    display: flex;
-
-}
-
-header ul li {
-    position: relative;
-    list-style: none;
-    
-}
-
-header ul li a {
-    position: relative;
-    display: inline-block;
-    margin: 0 15px;
-    color: #fff;
-    text-decoration: none;
-}
-header.sticky {
-    background: #fff;
-    padding: 20px 100px;
-    box-shadow: 0 5px 20px rbga(0,0,0,0.1);
-}
-header.sticky ul li a{
-    color:#111;
-}
-
