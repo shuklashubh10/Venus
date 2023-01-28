@@ -339,7 +339,17 @@
   }
   .footer-menu li {
     display: inline-block;
-    margin-left: 20px;
+    display: flex-inline;
+    flex-direction: column ;
+    
+    /* margin-left: 20px; */
+    /* margin-left: -60px; */
+  }
+  .TC{
+    padding-right: 80px;
+  }
+  .CO{
+    margin-left:200px ;
   }
   .footer-menu li:hover a{
     color: #ff5e14;
@@ -347,6 +357,7 @@
   .footer-menu li a {
     font-size: 14px;
     color: #878787;
+    margin-left: 20px;
   }
 
 
@@ -3161,9 +3172,10 @@ html {
   
   .section-description {
     margin-top: 30px;
-    font-size: 21px;
-    line-height: 27px;
-    font-weight: 300;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 800;
+    text-transform: capitalize;
   }
   
   .section-description.faded {
@@ -11808,9 +11820,10 @@ body{
    
    .section-description {
      margin-top: 30px;
-     font-size: 21px;
+     font-size: 28px;
      line-height: 27px;
-     font-weight: 300;
+     font-weight: 500;
+     text-transform: capitalize;
    }
    
    .section-description.faded {
@@ -17476,6 +17489,8 @@ body{
        padding-right: 0px;
        padding-bottom: 10px;
        padding-left: 0px;
+       
+
      }
    
      .contact-section {
@@ -19854,7 +19869,9 @@ header {
 #name img{
   height: 4%;
   width: 4%;
-  padding-left:20px;
+  margin-right: -20px;
+  margin-top: -10px;
+  /* padding-left:20px; */
 }
 
 
@@ -19889,10 +19906,10 @@ header ul li a {
     margin: 0 15px;
     /* color: #fdfdfd; */
 
-    color: #007fff;
+    color: #ADD8E6;
     text-decoration: none;
     font-size: 20px;
-    font-weight:50;
+    font-weight :50;
 }
 header.sticky {
     background: #fff;
@@ -19907,6 +19924,12 @@ header.sticky .logo{
 }
 .dropdown a{
   color: #111;
+}
+
+.menu{
+  
+  margin-left: -2000px;
+
 }
 
 @media(max-width:991px)
