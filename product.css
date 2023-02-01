@@ -265,7 +265,9 @@ th {
 section {
   padding: 100px;
 }
-
+.fa{
+  font-size: 8px;
+}
 .banner {
   position: relative;
   min-height: 100vh;
@@ -620,19 +622,23 @@ header.sticky .logo{
 }
 .single-cta i {
   color: #ff5e14;
-  font-size: 30px;
+  font-size: 22px;
   float: left;
-  margin-top: 8px;
+  /* margin-top: 8px; */
+  margin-left: 33px;
 }
 .cta-text {
-  padding-left: 15px;
-  display: inline-block;
+  padding-left: 40px;
+  margin-top: 4px;
+  /* display: inline-block; */
 }
 .cta-text h4 {
   color: #fff;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 2px;
+  margin-top: 10px !important;
+  padding-left: 20px !important;
 }
 .cta-text span {
   color: #757575;
