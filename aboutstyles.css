@@ -82,13 +82,12 @@ header {
 }
 
 #name img{
-  height: 4%;
-  width: 4%;
+  height: 60%;
+  width: 60%;
   margin-right: -20px;
-  margin-top: -10px;
+  margin-top: -30px;
   /* padding-left:20px; */
 }
-
 
 header .logo{
     color: #fff;

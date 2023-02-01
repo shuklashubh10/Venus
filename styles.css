@@ -4412,13 +4412,13 @@ html {
         from(rgba(0, 0, 0, 0.1)),
         to(rgba(0, 0, 0, 0.1))
       ),
-      url("https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca681459d1823_Photo-6.jpg");
+      url("./Pics/about/MISSION.png");
     background-image: linear-gradient(
         180deg,
         rgba(0, 0, 0, 0.1),
         rgba(0, 0, 0, 0.1)
       ),
-      url("https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca681459d1823_Photo-6.jpg");
+      url("./Pics/about/MISSION.png");
     background-position: 0px 0px, 50% 50%;
     background-size: auto, cover;
   }
@@ -13025,10 +13025,10 @@ body{
      width: 100%;
      height: 100%;
      border-radius: 4px;
-     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url("https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca681459d1823_Photo-6.jpg");
-     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://uploads-ssl.webflow.com/62b32fce235ca619d29d1720/62b32fcf235ca681459d1823_Photo-6.jpg");
-     background-position: 0px 0px, 50% 50%;
-     background-size: auto, cover;
+     
+     background-image: url("./Pics/about/MISSION.png");
+     object-fit: cover;
+     background-size:  cover;
    }
    
    .video-lightbox-image-block.hero {
@@ -19870,13 +19870,12 @@ header {
 }
 
 #name img{
-  height: 4%;
-  width: 4%;
+  height: 60%;
+  width: 60%;
   margin-right: -20px;
-  margin-top: -10px;
+  margin-top: -30px;
   /* padding-left:20px; */
 }
-
 
 header .logo{
     color: #fff;
