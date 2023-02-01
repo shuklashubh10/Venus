@@ -111,21 +111,33 @@
   </head>
   <body>
     
-    <header class="">
+    <header>
       <div id="name">
-        <img src="./Pics/about/newlogo.png" alt="">
+        <a href="index.html"> <img src="./Pics/about/newlogo.png" alt="" ></a>
+        
       <!-- <a href="index.html" class="logo" >Venus Brassotech </a> -->
     </div>
       <div class="toggle" onclick="toggleMenu();"></div>
-      <ul class="menu">
-          <li><a href="metals.html" onclick="toggleMenu();">Metal</a></li>
-          <li><a href="about1.html" onclick="toggleMenu();">About</a></li>
-          <li><a href="quality.html" onclick="toggleMenu();">Quality</a></li>
+      <ul class="menu navbar-links" >
+          <li class="navbar-dropdown"><a href="metals.html" onclick="toggleMenu();">Metal</a></li>
+          <li class="navbar-dropdown"><a href="about1.html" onclick="toggleMenu();">About</a></li>
+          <li class="navbar-dropdown"><a href="quality.html" onclick="toggleMenu();">Quality</a></li>
           <!-- <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li> -->
-          <li><a href="products.html" onclick="toggleMenu();">Products</a></li>
-          <li><a href="contactUs.html" onclick="toggleMenu();">Contact Us </a></li>
+          <li class="navbar-dropdown"><a href="products.html" onclick="toggleMenu();">Products</a>
+            <div class="dropdown">
+              <a href="products.html#rods-bars">Rods & Bars</a>          
+              <a href="products.html#Coils">Coils</a>           
+              
+              <a href="products.html#Billegts-Ignots">Billets & Ingots</a>
+              <a href="products.html#Tubes">Tubes</a>
+              <a href="products.html#Section-profile">Section & Profile</a>
+              <a href="product.html#Hollow">Hollow</a>
+            </div>
+          </li>
+          <li class="navbar-dropdown"><a href="contactUs.html" onclick="toggleMenu();">Contact Us </a></li>
       </ul>
   </header>
+  
   <section class="banner" id="Home">
       <div class="textbx">
           <h2><br><span> Quality</span></h2>
