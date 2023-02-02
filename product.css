@@ -392,8 +392,12 @@ header {
   margin-top: -30px;
   /* padding-left:20px; */
 }
-
-
+#name img{
+  /* height: 120px;
+  width: 200px; */
+  height: 40%;
+  width: 50%;
+}
 
 
 header .logo{

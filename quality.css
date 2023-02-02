@@ -1032,3 +1032,10 @@ header.sticky .logo{
   padding-bottom: 10px;
   font-weight: 400;
 }
+
+#name img{
+  /* height: 120px;
+  width: 200px; */
+  height: 40%;
+  width: 50%;
+}

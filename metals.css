@@ -786,3 +786,9 @@ header.sticky .logo{
   .CO{
     margin-left:200px ;
   }
+  #name img{
+    /* height: 120px;
+    width: 200px; */
+    height: 40%;
+    width: 50%;
+  }
