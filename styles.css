@@ -19948,11 +19948,11 @@ header.sticky .logo{
   color: #111;
 }
 
-.menu{
+/* .menu{
   
   margin-left: -2000px;
 
-}
+} */
 
 @media(max-width:991px)
 {
@@ -19964,9 +19964,7 @@ header.sticky .logo{
     header.sticky .logo{
         color: #111;
     }
-    #name img{
-     display: none; 
-        }
+   
     .menu{
       position: fixed;  
       top: 75px;
@@ -19994,7 +19992,7 @@ header.sticky .logo{
     .toggle{
         width: 40px;
         height: 40px;
-        background: url(pics/menu.png);
+        background: url(./pics/menu.png);
         background-position: center;
         background-repeat:no-repeat ;
         background-size: 30px;
@@ -20002,7 +20000,7 @@ header.sticky .logo{
 
     }
     .toggle.active{
-        background: url(pics/close.png);
+        background: url(./pics/close.png);
         background-position: center;
         background-repeat:no-repeat ;
         background-size: 25px;
