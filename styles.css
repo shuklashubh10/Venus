@@ -19890,8 +19890,8 @@ header {
 }
 
 #name img{
-  height: 40% !important;
-  width: 50%;
+  /* height: 60%;
+  width: 60%; */
   margin-right: -20px;
   margin-top: -30px;
   /* padding-left:20px; */
@@ -20152,4 +20152,11 @@ a:hover {
   height: 100vh;
   z-index: 99999;
   
+}
+
+#name img{
+  /* height: 120px;
+  width: 200px; */
+  height: 40%;
+  width: 50%;
 }
