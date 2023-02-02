@@ -4415,13 +4415,13 @@ html {
         from(rgba(0, 0, 0, 0.1)),
         to(rgba(0, 0, 0, 0.1))
       ),
-      url("./Pics/about/MISSION.png");
+      url("./pics/about/MISSION.png");
     background-image: linear-gradient(
         180deg,
         rgba(0, 0, 0, 0.1),
         rgba(0, 0, 0, 0.1)
       ),
-      url("./Pics/about/MISSION.png");
+      url("./pics/about/MISSION.png");
     background-position: 0px 0px, 50% 50%;
     background-size: auto, cover;
   }
@@ -13029,7 +13029,7 @@ body{
      height: 100%;
      border-radius: 4px;
      
-     background-image: url("./Pics/about/MISSION.png");
+     background-image: url("./pics/about/MISSION.png");
      object-fit: cover;
      background-size:  cover;
    }
@@ -19977,7 +19977,7 @@ header.sticky .logo{
     .toggle{
         width: 40px;
         height: 40px;
-        background: url(Pics/menu.png);
+        background: url(pics/menu.png);
         background-position: center;
         background-repeat:no-repeat ;
         background-size: 30px;
@@ -19985,7 +19985,7 @@ header.sticky .logo{
 
     }
     .toggle.active{
-        background: url(Pics/close.png);
+        background: url(pics/close.png);
         background-position: center;
         background-repeat:no-repeat ;
         background-size: 25px;

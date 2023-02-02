@@ -25,7 +25,7 @@ section {
   position: relative;
   min-height: 100vh;
   /* background-color: black; */
-  background: url(Pics/Desktop\ -\ 1.jpg);
+  background: url(pics/Desktop\ -\ 1.jpg);
   background-size: cover;
   background-position: right;
   display: flex;
@@ -168,7 +168,7 @@ section {
   .toggle {
     width: 40px;
     height: 40px;
-    background: url(Pics/menu.png);
+    background: url(pics/menu.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 30px;
@@ -177,7 +177,7 @@ section {
   }
 
   .toggle.active {
-    background: url(Pics/close.png);
+    background: url(pics/close.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 25px;
@@ -499,7 +499,7 @@ section
   position: relative;
   min-height: 100vh;
   /* background-color: black; */
-  background: url(Pics/Desktop\ -\ 1.jpg);
+  background: url(pics/Desktop\ -\ 1.jpg);
   background-size: cover;
   background-position: right;
   display: flex;
@@ -664,7 +664,7 @@ header.sticky .logo{
     .toggle{
         width: 40px;
         height: 40px;
-        background: url(Pics/menu.png);
+        background: url(pics/menu.png);
         background-position: center;
         background-repeat:no-repeat ;
         background-size: 30px;
@@ -672,7 +672,7 @@ header.sticky .logo{
 
     }
     .toggle.active{
-        background: url(Pics/close.png);
+        background: url(pics/close.png);
         background-position: center;
         background-repeat:no-repeat ;
         background-size: 25px;
