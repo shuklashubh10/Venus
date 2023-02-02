@@ -1036,3 +1036,18 @@ header.sticky .logo{
   height: 70%;
   width: 50%;
 }
+
+.img-fluid{
+    height: 40%;
+    width: 40%;
+}
+
+.CO{
+  margin-left:200px ;
+}
+.TC{
+  padding-right: 80px;
+}
+.footer-widget-heading a{
+  text-decoration: none;
+}

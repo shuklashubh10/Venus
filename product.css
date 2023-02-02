@@ -789,4 +789,7 @@ header.sticky .logo{
 }
 
 
-
+.img-fluid{
+  height: 40%;
+  width: 40%;
+}
