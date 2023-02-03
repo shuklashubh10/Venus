@@ -11,6 +11,8 @@
 }
 .hometags a{
   color: white;
+  font-size: 28px;
+  font-weight: 700;
 }
 a{
   /* color: white !important; */
