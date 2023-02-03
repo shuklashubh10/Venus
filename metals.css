@@ -468,7 +468,19 @@ header.sticky .logo{
   /* padding-left:20px; */
 }
 
-
+.img-fluid{
+  height: 40%;
+  width: 40%;
+}
+.footer-widget ul li a {
+  color:#878787 !important;
+}
+.TC ul li a{
+  color:#878787 !important;
+}
+.CO ul li a {
+  color:#878787 !important;
+}
 
 @media(max-width:991px)
 {
